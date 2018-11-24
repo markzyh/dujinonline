@@ -1,0 +1,68 @@
+﻿.iph{display: none;}
+.w1560{width: 1588px;margin: auto;padding-left: 15px;padding-right: 15px;}
+.swiper-wrapper,.swiper-slide{height: auto !important;}
+.slick-slide{box-shadow: 0px 0px 0px 0px rgba(0,0,0,0) !important;border-color: rgba(0,0,0,0) !important;}
+
+/*
+--------------------------------------------------------content*/
+.content{position: relative;z-index: 2;margin-top: 86px;}
+/*home1*/
+.home1{padding-top: 160px;padding-bottom: 160px;visibility: hidden;}
+.hmtit h2{height: 60px;}
+.hmtit h2 span,.hmtit h2 small{display: inline-block;vertical-align: bottom;}
+.hmtit h2 span{font-size: 60px;color: #fff;font-family: "Times New Roman","微软雅黑";text-transform: uppercase;letter-spacing: 5px;margin-right: 10px;height: 60px;line-height: 70px;}
+.hmtit h2 small{font-size: 22px;color: #fff;letter-spacing: 5px;}
+.hmtit p{font-size: 26px;color: #fff;margin-bottom: 0}
+.hm1tit{width: 50%;margin-top: -85px;margin-bottom: -40px;position: relative;z-index: 3;}
+.hm1row{margin-left: 0;margin-right: 0;}
+.hm1flbox,.hm1frbox{padding-left: 0;padding-right: 0;}
+.hm1flbox.col-md-7{position: relative;}
+.hm1fldiv{display: inline-block;vertical-align: bottom;width: 100%;position: absolute;bottom: 0;z-index: 1;text-align: center;}
+.hm1fldiv:after{content: "";position: absolute;z-index: -1;left: 0;bottom: 0;height: 400px;width: 100%;background-color: #fff;}
+.hm1but{position: absolute;z-index: 2;right: 10px;bottom: 20px;}
+.hmswp-but{display: block;font-size: 0;width: 50px;height: 50px;background-color: #f8f8f8;float: left;margin-left: 10px;margin-right: 10px;border-radius: 100%;text-align: center;line-height: 50px;position: relative;z-index: 1;overflow: hidden;transition: all 0.5s ease 0s;-webkit-transition: all 0.5s ease 0s;-moz-transition: all 0.5s ease 0s;-o-transition: all 0.5s ease 0s;}
+.hmswp-but:after{content: "";position: absolute;z-index: -1;top: 0;left: 0;bottom: 0;right: 0;width: 100%;height: 100%;margin: auto;opacity: 1;border-radius: 100%;background-color: #f8f8f8;transition: all 0.5s ease 0s;-webkit-transition: all 0.5s ease 0s;-moz-transition: all 0.5s ease 0s;-o-transition: all 0.5s ease 0s;}
+.hmswp-but small{display: inline-block;vertical-align: middle;font-size: 0;line-height: 0;position: relative;}
+.hmswp-but small img{transition: all 0.5s ease 0s;-webkit-transition: all 0.5s ease 0s;-moz-transition: all 0.5s ease 0s;-o-transition: all 0.5s ease 0s;}
+.hmswp-but small img:nth-child(2){position: absolute;top: 0;left: 0;opacity: 0;}
+.hm1frdiv{background-color: #f8f8f8;padding-left: 70px;padding-right: 70px;padding-top: 60px;height: 600px;}
+.hm1frtit{margin-bottom: 50px;}
+.hm1frtit h3 span{display: block;font-size: 72px;text-transform: uppercase;color: #333;font-family: "Times New Roman","微软雅黑";margin-bottom: 10px;}
+.hm1frtit h3 small{font-size: 50px;color: #333;font-weight: lighter;}
+.hm1frlist{margin-left: -20px;margin-right: -20px;}
+.hm1frlist li{float: left;margin-left: 20px;margin-right: 20px;}
+.hm1frlist li a{float: left;font-size: 18px;color: #333;line-height: 40px;}
+.hm1ulist{position: absolute;left: 0;bottom: 45px;width: 100%;padding-left: 50px;padding-right: 50px;}
+.hm1ul{border-bottom: solid 1px #dadadb;margin-bottom: 0;}
+.hm1ul li{text-align: center;float: left;width: 16.666%;position: relative;bottom: -6px;cursor: pointer;}
+.hm1ul li:after{content: "";position: absolute;bottom: 0;left: 0;right: 0;margin: auto;width: 11px;height: 11px;background: url(../images/hm1dd1.png) no-repeat center center;}
+.hm1ul p{transition: all 0.3s ease 0s;-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;}
+.hm1ul li.active:after{background: url(../images/hm1dd2.png) no-repeat center center;}
+.hm1ul p{text-align: left;writing-mode: vertical-lr;display: inline-block;height: 75px;margin-bottom: 10px;font-size: 14px;color: #979797;line-height: 20px;cursor: pointer;}
+.hm1ul li.active p{color: #585555;}
+.hm1slider .item{position: relative;}
+.itemul{position: relative;bottom: 0;left: 0;width: 100%;height: 100%;}
+.hm1slider li{position: absolute;bottom: 0;left: 0;z-index: 999;}
+.hm1slider li i{display: block;opacity: 0;}
+.hm1slider li i img{width: 100%;}
+.hm1slider .slick-current li i{opacity: 1;}
+.hm1slider .slick-current li i.item1li1{animation: bounceInLeft 2s ease 0.4s both;-webkit-animation: bounceInLeft 2s ease 0.4s both;-moz-animation: bounceInLeft 2s ease 0.4s both;-o-animation: bounceInLeft 2s ease 0.4s both;}
+.hm1slider .slick-current li i.item1li2{animation: bounceInRight 2s ease 0.2s both;-webkit-animation: bounceInRight 2s ease 0.2s both;-moz-animation: bounceInRight 2s ease 0.2s both;-o-animation: bounceInRight 2s ease 0.2s both;}
+/**/.hm1slider .slick-current li i.item2li2{animation: bounceInDown 1.2s ease 0.4s both;-webkit-animation: bounceInDown 1.2s ease 0.4s both;-moz-animation: bounceInDown 1.2s ease 0.4s both;-o-animation: bounceInDown 1.2s ease 0.4s both;}
+.hm1slider .slick-current li i.item2li3{animation: bounceInDown 1.2s ease 0.2s both;-webkit-animation: bounceInDown 1.2s ease 0.2s both;-moz-animation: bounceInDown 1.2s ease 0.2s both;-o-animation: bounceInDown 1.2s ease 0.2s both;}
+/**/.hm1slider .slick-current li i.item3li2{animation: slideInRight 1.2s ease 0s both;-webkit-animation: slideInRight 1.2s ease 0s both;-moz-animation: slideInRight 1.2s ease 0s both;-o-animation: slideInRight 1.2s ease 0s both;}
+.hm1slider .slick-current li i.item3li3{animation: slideInRight 1.2s ease 0s both;-webkit-animation: slideInRight 1.2s ease 0s both;-moz-animation: slideInRight 1.2s ease 0s both;-o-animation: slideInRight 1.2s ease 0s both;}
+.hm1slider .slick-current li i.item3li4{animation: slideInRight 1.2s ease 0.3s both;-webkit-animation: slideInRight 1.2s ease 0.3s both;-moz-animation: slideInRight 1.2s ease 0.3s both;-o-animation: slideInRight 1.2s ease 0.3s both;}
+.hm1slider .slick-current li i.item3li5{animation: slideInRight 1.2s ease 0.3s both;-webkit-animation: slideInRight 1.2s ease 0.3s both;-moz-animation: slideInRight 1.2s ease 0.3s both;-o-animation: slideInRight 1.2s ease 0.3s both;}
+.hm1slider .slick-current li i.item3li6{animation: slideInRight 1.2s ease 0.5s both;-webkit-animation: slideInRight 1.2s ease 0.5s both;-moz-animation: slideInRight 1.2s ease 0.5s both;-o-animation: slideInRight 1.2s ease 0.5s both;}
+.hm1slider .slick-current li i.item3li7{animation: slideInRight 1.2s ease 0.5s both;-webkit-animation: slideInRight 1.2s ease 0.5s both;-moz-animation: slideInRight 1.2s ease 0.5s both;-o-animation: slideInRight 1.2s ease 0.5s both;}
+.hm1slider .slick-current li i.item3li8{animation: slideInRight 1.2s ease 0.7s both;-webkit-animation: slideInRight 1.2s ease 0.7s both;-moz-animation: slideInRight 1.2s ease 0.7s both;-o-animation: slideInRight 1.2s ease 0.7s both;}
+.hm1slider .slick-current li i.item3li9{animation: slideInRight 1.2s ease 0.7s both;-webkit-animation: slideInRight 1.2s ease 0.7s both;-moz-animation: slideInRight 1.2s ease 0.7s both;-o-animation: slideInRight 1.2s ease 0.7s both;}
+/**/.hm1slider .slick-current li i.item4li1{animation: slideInUp 1.2s ease 0.6s both;-webkit-animation: slideInUp 1.2s ease 0.6s both;-moz-animation: slideInUp 1.2s ease 0.6s both;-o-animation: slideInUp 1.2s ease 0.6s both;}
+.hm1slider .slick-current li i.item4li2{animation: slideInUp 1.2s ease 0.3s both;-webkit-animation: slideInUp 1.2s ease 0.3s both;-moz-animation: slideInUp 1.2s ease 0.3s both;-o-animation: slideInUp 1.2s ease 0.3s both;}
+.hm1slider .slick-current li i.item4li3{animation: slideInUp 1.2s ease 0s both;-webkit-animation: slideInUp 1.2s ease 0s both;-moz-animation: slideInUp 1.2s ease 0s both;-o-animation: slideInUp 1.2s ease 0s both;}
+/**/.hm1slider .slick-current li i.item5li2{animation: slideInDown 1.2s ease 0.3s both;-webkit-animation: slideInDown 1.2s ease 0.3s both;-moz-animation: slideInDown 1.2s ease 0.3s both;-o-animation: slideInDown 1.2s ease 0.3s both;}
+.hm1slider .slick-current li i.item5li3{animation: slideInUp 1.2s ease 0.3s both;-webkit-animation: slideInUp 1.2s ease 0.3s both;-moz-animation: slideInUp 1.2s ease 0.3s both;-o-animation: slideInUp 1.2s ease 0.3s both;}
+/**/.hm1slider .slick-current li i.item6li1{animation: zoomIn 1.2s ease 0s both;-webkit-animation: zoomIn 1.2s ease 0s both;-moz-animation: zoomIn 1.2s ease 0s both;-o-animation: zoomIn 1.2s ease 0s both;}
+.hm1slider .slick-current li i.item6li2{animation: slideInDown 1.2s ease 0.1s both;-webkit-animation: slideInDown 1.2s ease 0.1s both;-moz-animation: slideInDown 1.2s ease 0.1s both;-o-animation: slideInDown 1.2s ease 0.1s both;}
+.hm1slider .slick-current li i.item6li3{animation: slideInDown 1.6s ease 0.1s both;-webkit-animation: slideInDown 1.6s ease 0.1s both;-moz-animation: slideInDown 1.6s ease 0.1s both;-o-animation: slideInDown 1.6s ease 0.1s both;}

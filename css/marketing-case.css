@@ -1,0 +1,120 @@
+a{color: #333;}
+.wap {width: 90.625%;max-width: 1280px;margin: 80px auto;}
+.anlsx{padding: 0 0 80px;}
+.wap .tit{text-align: center; padding-bottom: 1em; line-height: 1.1em;-moz-transform: translate(0,80px); -o-transform: translate(0,80px); -webkit-transform: translate(0,80px); transform: translate(0,80px);  opacity: 0;font-size: 40px;}
+.wap .saix{text-align: center;-moz-transform: translate(0,80px); -o-transform: translate(0,80px); -webkit-transform: translate(0,80px); transform: translate(0,80px);  opacity: 0; position: relative; z-index: 10;}
+.anlsx .xlsx{display: inline-block; width: 200px; text-align: left;}
+.anlsx .xlsx .nice-select{width:198px; font-size: 18px; border-radius: 0; border-color: #ccc; line-height: 48px; height: 48px;}
+.anlsx .xlsx .nice-select:after{border-bottom: 2px solid #666666; border-right: 2px solid #666666; width: 10px; height: 10px; margin-top: -8px; right: 22px;}
+.anlsx .xlsx .nice-select .list{font-size: 14px;width: 100%; height: 200px; overflow-y:auto;}
+.anlsx .xlsx .nice-select.open .list{}
+.anlsx .xlsx .nice-select .option.selected{color: #E60012;}
+.anlsx .saix dl.type{text-align: center;}
+.anlsx .saix dl.type dd{display: inline-block; float: none;}
+
+.anlsx .cons{padding-top: 40px;}
+.anlsx .cons dl dd{float: left; width: calc(33.33% - 6px); margin-left: 9px; margin-bottom: 9px; background: #000000; -moz-transform: translate(0,80px); -o-transform: translate(0,80px); -webkit-transform: translate(0,80px); transform: translate(0,80px);  opacity: 0;}
+.anlsx .cons dl dd:nth-child(3n+1){margin-left: 0;}
+.anlsx .cons dl dd a{display: block; position: relative; opacity: 0.5; overflow: hidden;}
+.anlsx .cons dl dd a .img{padding-bottom: 56.6%; background-size: 100% !important; background-position-y: top !important;transition:2.3s; -webkit-transition:2.3s; -moz-transition:2.3s; -ms-transition:2.3s; -o-transition:2.3s;}
+.anlsx .cons dl dd a .text .logos{width: 25%; left: 0; top: 0; position: absolute; background-size: 80% !important; background-color: #fff !important; height: 100%;}
+.anlsx .cons dl dd a .text{position: absolute; bottom: 10px; left: 10px; width: calc(100% - 40px); text-align: center; background: rgba(0,0,0,0.5); color: #fff; padding: 20px 10px;  transition:.7s; -webkit-transition:.7s; -moz-transition:.7s; -ms-transition:.7s; -o-transition:.7s; -moz-transform: translate(0,120px); -o-transform: translate(0,120px); -webkit-transform: translate(0,120px); transform: translate(0,120px);}
+.anlsx .cons dl dd a .text h3{font-size: 16px; padding-bottom: 0.5em; }
+.anlsx .cons dl dd a .text h3,.anlsx .cons dl dd a .text h4{transition:.7s 0.1s; -webkit-transition:.7s 0.1s; -moz-transition:.7s 0.1s; -ms-transition:.7s 0.1s; -o-transition:.7s 0.1s; -moz-transform: translate(0,120px); -o-transform: translate(0,120px); -webkit-transform: translate(0,120px); transform: translate(0,120px);margin-left: 25%;}
+.anlsx .cons dl dd a .text.nologo h3,.anlsx .cons dl dd a .text.nologo h4{margin-left: 0 !important;}
+.anlsx .cons dl dd a .text span{display: inline-block; padding-right: 10px;}
+.anlsx .cons dl dd a .text font{display: inline-block; padding: 0 4px;}
+.anlsx .cons dl dd a:hover .img{background-position-y: bottom !important;}
+.anlsx .cons dl dd a:hover{opacity: 1;}
+.anlsx .cons dl dd a:hover .text,.anlsx .cons dl dd a:hover .text h4,.anlsx .cons dl dd a:hover .text h3{opacity: 1; -moz-transform: translate(0,-0px); -o-transform: translate(0,-0px); -webkit-transform: translate(0,-0px); transform: translate(0,-0px);}
+
+
+.anlsx .cons ul.wsals li{float: left; margin-left: 4px; width: calc(25% - 3px);position: relative; margin-bottom: 6px;}
+.anlsx .cons ul.wsals li:nth-child(4n+1){margin-left: 0;}
+.anlsx .cons ul.wsals li .imgs{background: #000000;}
+.anlsx .cons ul.wsals li .imgs img{opacity: 0.5;transition:.7s; -webkit-transition:.7s; -moz-transition:.7s; -ms-transition:.7s; -o-transition:.7s;}
+.anlsx .cons ul.wsals li:hover .imgs img{opacity: 1;}
+.anlsx .cons ul.wsals li .txt{position: absolute; bottom: 0; width: 80%; text-align: center; left: 5%; padding: 20px 5%; background: #ef821b;}
+.anlsx .cons ul.wsals li:nth-child(4n+1) .txt{background: #ef821b;}
+.anlsx .cons ul.wsals li:nth-child(4n+2) .txt{background: #766fb0;}
+.anlsx .cons ul.wsals li:nth-child(4n+3) .txt{background: #49a0d0;}
+.anlsx .cons ul.wsals li:nth-child(4n) .txt{background: #313333;}
+.anlsx .cons ul.wsals li .txt h3{font-size: 18px; padding-bottom: 0.3em; color: #fff; width: 100%; overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.anlsx .cons ul.wsals li .txt .bq{height: 29px;}
+.anlsx .cons ul.wsals li .txt .bq a{display: inline-block; width: 24px; line-height: 24px; height: 24px; font-size: 0; opacity: 0.5; vertical-align: middle; margin-top: 5px; overflow: hidden;}
+.anlsx .cons ul.wsals li .txt .bq a span{width: 5em; display: block; opacity: 0;}
+.anlsx .cons ul.wsals li .txt .bq a.ico1{background: url(../images/yxico1.png) no-repeat center;}
+.anlsx .cons ul.wsals li .txt .bq a.ico2{background: url(../images/yxico2.png) no-repeat center;}
+.anlsx .cons ul.wsals li .txt .bq a.ico3{background: url(../images/yxico3.png) no-repeat center;}
+.anlsx .cons ul.wsals li .txt .bq a.ico4{background: url(../images/yxico4.png) no-repeat center;}
+.anlsx .cons ul.wsals li .txt .bq a.ico5{background: url(../images/yxico5.png) no-repeat center;}
+.anlsx .cons ul.wsals li .txt .bq a.ico6{background: url(../images/yxico6.png) no-repeat center;}
+.anlsx .cons ul.wsals li .txt .bq a:hover{width:5em; background: #fff !important; opacity: 1; font-size: 12px; border-radius: 3px; color: #000000;}
+.anlsx .cons ul.wsals li .txt .bq a:hover span{opacity: 1;}
+
+.anlsx .cons ul.cyhd li{float: left; margin-left: 4px; width: calc(25% - 3px);position: relative; margin-bottom: 6px;}
+
+.anlsx .cons ul.cyhd li:nth-child(4n+1){margin-left: 0;}
+.anlsx .cons ul.cyhd li .tit{line-height:2.4em; color: #fff; text-align: center; display: block; background: #ef821b; width: 100%; overflow: hidden;white-space: nowrap;text-overflow: ellipsis; padding-bottom: 0;}
+.anlsx .cons ul.cyhd li .bg{position: relative;}
+.anlsx .cons ul.cyhd li .imgs{position: absolute; top: 7%; left:21%; width: 62.5%;}
+.anlsx .cons ul.cyhd li .imgs img{opacity: 1;transition:.7s; -webkit-transition:.7s; -moz-transition:.7s; -ms-transition:.7s; -o-transition:.7s;}
+.anlsx .cons ul.cyhd li .imgs a:hover img{opacity: 0.2;}
+.anlsx .cons ul.cyhd li .txt{position: absolute; bottom: 0; width: 80%; text-align: center; left: 5%; padding: 20px 5%;}
+.anlsx .cons ul.cyhd li:nth-child(4n+1) .tit{background: #ef821b;}
+.anlsx .cons ul.cyhd li:nth-child(4n+2) .tit{background: #766fb0;}
+.anlsx .cons ul.cyhd li:nth-child(4n+3) .tit{background: #49a0d0;}
+.anlsx .cons ul.cyhd li:nth-child(4n) .tit{background: #000000;}
+.anlsx .cons ul.cyhd li:nth-child(4n+1) .imgs{background: #ef821b;}
+.anlsx .cons ul.cyhd li:nth-child(4n+2) .imgs{background: #766fb0;}
+.anlsx .cons ul.cyhd li:nth-child(4n+3) .imgs{background: #49a0d0;}
+.anlsx .cons ul.cyhd li:nth-child(4n) .imgs{background: #000000;}
+.anlsx .cons ul.cyhd li .imgs span{position: absolute; top: 50%; left: 0; width: 100%; color: #fff; text-align: center; margin-top: -47px; opacity: 0;}
+.anlsx .cons ul.cyhd li .imgs span img{display: block; margin: 0 auto; opacity: 1; padding-bottom: 12px;}
+.anlsx .cons ul.cyhd li .imgs a:hover span img,.anlsx .cons ul.cyhd li .imgs a:hover span{opacity: 1;}
+
+.anlsx .cons ul.cyhd li .txt h3{font-size: 18px; padding-bottom: 0.3em; color: #fff;}
+.anlsx .cons ul.cyhd li .txt .bq{}
+.anlsx .cons ul.cyhd li .txt .bq a{display: inline-block; width: 24px; line-height: 24px; height: 24px; font-size: 0; opacity: 1; vertical-align: middle; margin-top: 5px; overflow: hidden;}
+.anlsx .cons ul.cyhd li .txt .bq a span{width: 5.5em; display: block; opacity: 0;}
+.anlsx .cons ul.cyhd li .txt .bq a.ico1{background: url(../images/hdico1.png) no-repeat center;}
+.anlsx .cons ul.cyhd li .txt .bq a.ico2{background: url(../images/hdico2.png) no-repeat center;}
+.anlsx .cons ul.cyhd li .txt .bq a.ico3{background: url(../images/hdico3.png) no-repeat center;}
+.anlsx .cons ul.cyhd li .txt .bq a.ico4{background: url(../images/hdico4.png) no-repeat center;}
+.anlsx .cons ul.cyhd li .txt .bq a.ico5{background: url(../images/hdico5.png) no-repeat center;}
+.anlsx .cons ul.cyhd li .txt .bq a:hover{width:5.5em; background: #fff !important; opacity: 1; font-size: 12px; border-radius: 3px; color: #000000;}
+.anlsx .cons ul.cyhd li .txt .bq a:hover span{opacity: 1;}
+
+
+
+
+.wap .tit{transition:1.3s 0.2s; -webkit-transition:1.3s 0.2s; -moz-transition:1.3s 0.2s; -ms-transition:1.3s 0.2s; -o-transition:1.3s 0.2s;-moz-transform: translate(0,0px); -o-transform: translate(0,0px); -webkit-transform: translate(0,0px); transform: translate(0,0px); opacity: 1;}
+.wap .saix{-moz-transform: translate(0,0px); -o-transform: translate(0,0px); -webkit-transform: translate(0,0px); transform: translate(0,0px); transition:1.3s 0.6s; -webkit-transition:1.3s 0.6s; -moz-transition:1.3s 0.6s; -ms-transition:1.3s 0.6s; -o-transition:1.3s 0.6s; opacity: 1;}
+.wap .saix p{font-size: 26px;line-height: 1.6em;}
+.anlsx .saix dl dt{float:left;padding:5px 10px;font-weight:bolder;}
+.anlsx .saix dl dd{float:left;padding:5px 10px;}
+.anlsx .saix dl dd a.cur{color:#F00;}
+.anlsx .saix dl.type dd{font-size:16px;}
+.anlsx.srcospcur .cons dl dd.dds{-moz-transform: translate(0,0px); -o-transform: translate(0,0px); -webkit-transform: translate(0,0px); transform: translate(0,0px); transition:1.3s 1.2s; -webkit-transition:1.3s 1.2s; -moz-transition:1.3s 1.2s; -ms-transition:1.3s 1.2s; -o-transition:1.3s 1.2s; opacity: 1;}
+
+.anlsx .saix dl.type{text-align: center; padding-bottom: 20px;}
+.anlsx .saix dl.type dd{display: inline-block; float: none; padding: 0 3px;}
+.anlsx .saix dl.type dd a{display: block; color: #000000; line-height: 38px; width: 158px; border: 1px solid #ccc; font-weight: bold;}
+.anlsx .saix dl.type dd a.cur,.anlsx .saix dl.type dd a:hover{border-color:#e60012; background: #e60012; color: #fff;}
+
+.anlsx.srcospcur .jzgd{-moz-transform: translate(0,0px); -o-transform: translate(0,0px); -webkit-transform: translate(0,0px); transform: translate(0,0px); transition:1.3s 1.8s; -webkit-transition:1.3s 1.8s; -moz-transition:1.3s 1.8s; -ms-transition:1.3s 1.8s; -o-transition:1.3s 1.8s; opacity: 1;}
+.ucangd .jzgd.srcospcur{-moz-transform: translate(0,0px); -o-transform: translate(0,0px); -webkit-transform: translate(0,0px); transform: translate(0,0px); transition:1.3s 0s; -webkit-transition:1.3s 0s; -moz-transition:1.3s 0s; -ms-transition:1.3s 0s; -o-transition:1.3s 0s; opacity: 1;}
+.ucangd .jzgd{position: absolute; top: 100%; width: 100%; left: 0;}
+.anlsx .cons{padding-top: 25px;}
+	.jzgd{padding-top: 15px;}
+	.jzgd a{font-size: 15px; line-height: 40px; width: 120px;}
+.jzgd a{display: block; text-align: center; font-size: 18px; line-height: 50px; width: 150px; border: 1px solid #ccc; margin: 0 auto; font-family: 'Source-Han-Norm10cdf5282f54af'  !important;}
+.jzgd a:hover{font-weight: 200; color: #000000; width: 170px; animation: shade 0.5s normal;
+	-webkit-animation: shade 0.5s normal;
+	-moz-animation: shade 0.5s normal;
+	-o-animation: shade 0.5s normal;}
+.jzgd a span{display: inline-block; vertical-align: middle; margin-left: 8px; width: 9px; position: relative; overflow: hidden;transition:0.5s; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; -o-transition:0.5s;}
+.jzgd a img{display: inline-block; vertical-align: middle; height: 14px; padding-bottom: 4px; float: right;}
+.jzgd a span:before{content: ''; position: absolute; right:3px; top: 50%; margin-top: -3px; height: 2px; background: #000000; width: 0%;transition:0.5s; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; -o-transition:0.5s;}
+.jzgd a:hover span{width:25px;}
+.jzgd a:hover span:before{width: 100%;}

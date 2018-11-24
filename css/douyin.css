@@ -1,0 +1,126 @@
+﻿body{width:100%;margin: auto}
+img{max-width:100%;}
+.width_dya{width: 1600px;min-width:1200px;margin: auto;}
+.width_dyb{ background: url(../images/dujind_01.jpg) no-repeat center;background-size:100% auto;width: 100%;height: 802px; }
+.width_dyf {width: 704px; text-align: center;padding-top: 228px;}
+h1.width_dyc{font-size: 48px; line-height: 70px; color: #ffffff;font-weight: normal;}
+p.width_dyd{font-size: 20px; line-height: 50px; color: #ffffff; margin: 20px 0px;}
+a.width_dye{font-size: 18px; display: block;background: #23c8e4;color: #fff; width: 218px;height: 58px;line-height: 58px;}
+
+.width_dylCon,.douyin_title{min-width:1200px;width:1600px;margin: auto}
+.width_dyl{ width: 1260px; margin: 116px auto 137px auto;}
+
+.width_dyg  {width: 541px;}
+ul.width_dyn li{ line-height: 40px;}
+.width_dyo{width: 688px;}
+.width_dyo h1.width_dyh {margin-top: 30px;color: #ebebeb;font-size: 72px; font-family: inherit;line-height: 50px;}
+.width_dyo .width_dyi {color: #333333;font-size: 36px;line-height: 30px;font-weight: normal;margin-top: -15px;margin-bottom: 40px;}
+ul.width_dyn li {margin: 26px auto;}
+ul.width_dyn li span{display: block;}
+ul.width_dyn li span.width_dyj { width: 52px;line-height: 24px;text-align: center;}
+ul.width_dyn li p.width_dyk {font-size: 16px;line-height: 16px;letter-spacing: -1px;}
+ul.width_dyn li p.width_dym {font-size: 28px;line-height:26px; }
+ul.width_dyn li span.width_dyp{font-size: 18px; margin-left: 10px;width: 608px; letter-spacing: -1px;}
+.width_dyq{background: url(../images/dujind_07.jpg) no-repeat center;background-size:100% auto;width:1600px;height: 342px;}
+.width_dyq_inside{width: 80%;margin: auto;}
+.width_dyq .width_dyr {background: url(../images/dujind_06.png) no-repeat center;background-size:327px auto;width: 327px;height: 176px; font-size: 36px;color: #fff;line-height: 155px;line-height: 164px;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box; padding-left: 33px; margin-top: 77px; margin-left: 10%;}
+.width_dyq .width_dys {margin: 105px 22px 0px 64px;}
+.width_dyq .width_dyt {width: 37%; font-size: 16px;color: #ffffff; line-height: 45px; margin-top: 100px;}
+h4.width_dyu{text-align: center;color: #2f2f2f; line-height: 66px; font-weight: normal;font-size: 46px;margin-top: 144px;}
+h4.width_dyu p{font-size: 20px;color: #666666;line-height: 24px;}
+ul.width_syf {margin-top: 133px;}
+ul.width_syf li .width_dyv {width:821px ; height: 556px;}
+ul.width_syf li {margin-top: 133px;}
+ul.width_syf li .width_dyw{box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;  padding-left: 71px; padding-right: 130px;}
+ul.width_syf li:first-child .width_dyw{background: url(../images/dujind_03.png) no-repeat center;background-size:779px 556px;width: 779px;height: 556px;}
+ ul.width_syf li .width_dyw .width_dyz{width: 341px;height:33px; background: #dae6ff;margin-top: 119px;}
+ ul.width_syf li .width_dyw h4.width_sya{ font-size: 36px;color: #4971c6;font-weight: normal;line-height: 40px;margin-top: -64px;margin-left: 64px;}
+ ul.width_syf li .width_dyw h5.width_syb{font-size: 24px;color: #333333;line-height: 32px;font-weight: normal;margin-top: 65px;}
+ ul.width_syf li .width_dyw .width_syc {color: #666666;font-size: 18px;margin-top: 35px;line-height: 42px;}
+ ul.width_syf li .width_dyw p.width_syd{font-size: 16px; color: #dedede;line-height: 26px;margin-top: 25px;}
+ ul.width_syf li .width_dyw a.width_sye {margin-top: 50px;color: #d37c00;font-size: 18px; display: inline-block;padding: 10px 40px; border: 1px solid #d37c00;}
+ ul.width_syf li .width_dyw a.width_sye:hover{color: #d37c00;}
+ ul.width_syf li:nth-child(2) .width_dyw{background: url(../images/dujind_13.png) no-repeat center;background-size:779px 556px;width: 779px;height: 556px;}
+ ul.width_syf li:nth-child(3) .width_dyw{background: url(../images/dujind_18.png) no-repeat center;background-size:779px 556px;width: 779px;height: 556px;}
+ ul.width_syf li:nth-child(4) .width_dyw{background: url(../images/dujind_02.png) no-repeat center;background-size:779px 556px;width: 779px;height: 556px;}
+ ul.width_syf li:nth-child(5) .width_dyw{background: url(../images/dujind_03.png) no-repeat center;background-size:779px 556px;width: 779px;height: 556px;}
+ ul.width_syf li:nth-child(6) .width_dyw{background: url(../images/dujind_05.png) no-repeat center;background-size:779px 556px;width: 779px;height: 556px;}
+/* 专业团队 */
+.team_dy{width:1600px;height:800px;background:url(../images/team_bg.jpg)no-repeat;margin: auto;}
+.team_dyCon{width:1210px;margin:133px auto auto auto;padding-top:125px;}
+.team_dy_ul{}
+.team_dy_ul li{width:340px;height:80px;font-size:18px;color:#ffffff;margin-bottom:70px;}
+.team_dy_ul li i{width:39px;height:31px;display:inline-block;background: url(../images/team_05.png)no-repeat;margin-bottom:-5px;margin-right:15px;}
+.team_dy_ul li p{line-height: 24px;position: relative;}
+.team_dy_ul li b{width:56px;height:1px;background: #fff;display: block;position: absolute;top:0;left: 54px;}
+.team_dy_ul li span{font-size: 14px;margin-left:55px;display: block;width:320px;height:42px;line-height: 24px; margin-top:5px;color:#848891; }
+.team_dy_ul li:nth-child(2) i{background: url(../images/team_06.png)no-repeat;}
+.team_dy_ul li:nth-child(3) i{background: url(../images/team_07.png)no-repeat;}
+.team_dy_ul li:nth-child(4) i{background: url(../images/team_08.png)no-repeat;}
+.team_right{width:510px;height:310px;margin:0 auto;color:#ffffff;margin-right:10px;}
+.team_right_con{width:510px;height:143px;background: url(../images/team_09.png)no-repeat 155px center;}
+.team_right h2{font-size: 36px;font-weight: normal;padding-bottom:35px;position: relative;letter-spacing: 5px;line-height: 35px;padding-top:25px;}
+.team_right h2 span{width:41px;height:37px;display: inline-block;background: url(../images/team_10.png)no-repeat;margin-bottom:20px;}
+.team_right p{font-size:18px;line-height: 48px;margin:25px 0;}
+.team_right span{font-size: 14px;color:#a8aab5;line-height: 30px;}
+
+.video_dy{ width:1600px;margin:0 auto;min-width:1200px;}
+.video_dy_ul{overflow: hidden;width:1300px;margin:95px auto auto auto;}
+.video_dy_ul li{width:26%;height:415px;border:1px solid #f3f3f3;margin-right: 10.6%;float: left;margin-bottom:83px;text-align: center;}
+.video_dy_ul li img{width:205px;margin-top:22px;margin-left:15px;}
+.video_dy_ul li:nth-child(3),.video_dy_ul li:nth-child(6){margin-right: -45px;}
+.video_dy_ul li h4{font-size: 24px;line-height: 45px; font-weight: normal;margin-top:-18px;}
+.video_dy_ul li p{font-size: 16px;line-height:34px;color:#959595;text-align: left;padding:0 25px;margin-left: 4px;}
+.video_dy_btn{width:440px;height:60px;background: #4971c6;color:#fff;display: block;text-align: center;border-radius: 5px;font-size: 20px;line-height: 60px;margin:0 auto;margin-bottom:70px;}
+a.video_dy_btn:hover{color:#fff;}
+
+
+.but{
+	margin-left: 60px;
+	margin-right: -10px;
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+}
+.but a{
+	float: left;
+	font-size: 16px;
+	width: 185px;
+	height: 55px;
+	line-height: 53px;
+	border-radius: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+.but a.but1{
+	border: solid 1px #4971c6;
+	background-color: #4971c6;
+	color: #fff;
+	transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+.but a.but1:hover{
+	opacity: 0.8;
+}
+.but a.but2:hover{
+	background-color: #fff;
+	color: #4971c6;
+	opacity: 0.8;
+}
+
+.but a.but2{
+	border: solid 1px #a8a8a8;
+	transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+
+
+
+
+
+

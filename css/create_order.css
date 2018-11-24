@@ -1,0 +1,167 @@
+.rem { font-size: 16rem; }
+
+body { background: #d3d3d3; margin-top: 128px; }
+
+.dis-inline { display: inline-block; }
+
+input, select { border: none; -webkit-appearance: none; appearance: none; -moz-appearance: none; }
+
+input[type='radio'] { width: 18px; height: 18px; border: 1px solid #999; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; cursor: pointer; }
+
+.create_box { width: 1300px; margin: 0 auto; background: #fff; border-top: 1px solid transparent; padding: 68px; }
+
+.create_title { font-size: 20px; font-weight: normal; text-align: center; margin: 0 auto; border-bottom: 1px solid #868686; padding-bottom: 20px; }
+
+.create_order_form label { display: block; font-size: 16px; margin: 26px 0 10px; text-indent: 0.5em; }
+
+.create_order_tips { position: relative; display: inline-block; width: 19px; text-indent: 0; }
+
+.order_tips_description { position: absolute; width: 270px; height: auto; border: 1px solid #ccc; padding: 20px; background: #fff; left: 50%; margin-left: -135px; top: 36px; line-height: 1.65em; color: #999; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; display: none; z-index: 2; }
+.order_tips_description b { text-indent: 0; display: block; text-align: center; width: 100%; font-weight: normal; color: #666; margin-bottom: 10px; }
+
+.order_tips_description_tri { width: 21px; height: 11px; position: absolute; top: -11px; left: 50%; margin-left: -10px; z-index: 3; }
+
+.order_tips_icon { cursor: pointer; margin-bottom: -3px; }
+
+.create_order_tips:hover .order_tips_description { display: block; }
+
+.order_link { border-bottom: 1px dashed #f0f0f0; padding-bottom: 30px; }
+
+.order_link_value { background-image: url(../images/order_link_icon_03.png); background-repeat: no-repeat; background-position: left center; background-origin: content-box; width: 564px; border: 1px solid #a4a4a4; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; line-height: 56px; background-color: transparent; padding-left: 22px; text-indent: 2em; font-size: 16px; color: #ccc; }
+
+.customtype_form { background: #fff; border: 1px solid #ccc; display: inline-block; padding: 0 20px 20px; width: 140%; margin-left: -140px; margin-top: 15px; /* position: absolute; */ /* left: -170px;
+top: 36px;
+z-index: 2; */ display: none; }
+.customtype_form.show { display: inline-block; }
+.customtype_form .customtype_form_btn { display: inline-block; width: 66px; line-height: 26px; text-align: center; color: #999; border: 1px solid #d5d5d5; margin-left: 14px; text-indent: 0; cursor: pointer; position: relative; }
+.customtype_form .customtype_form_btn.checked { color: #eb5169; border: 1px solid; }
+
+.order_typename_group { display: inline-block; font-size: 16px; width: 100%; width: 30%; position: relative; vertical-align: top; margin-top: 20px; }
+.order_typename_group span { display: inline-block; }
+.order_typename_group input[type='radio'] { margin: 0 8px -3px 30px; }
+.order_typename_group input.radio_checked { width: 19px; height: 19px; border: none; background: url(../images/radio_checked_bg.png) no-repeat; }
+.order_typename_group .order_tips_description_tri { left: 30px; margin-left: 0; top: 26px; }
+
+.order_increment_number { margin-left: 20px; display: inline-block; font-size: 24px; color: #eb5169; vertical-align: middle; margin-bottom: 7px; }
+
+.show-enter-active, .show-leave-active { transition: opacity .5s; }
+
+.show-enter, .show-leave-to { opacity: 0; }
+
+.customtype_form_group { margin-top: 20px; }
+.customtype_form_group .checked { color: #ff0000; }
+
+.order_provice { position: absolute; background: #fff; border: 1px solid #ccc; padding: 20px; width: 400px; top: 42px; left: 50%; margin-left: -220px; padding-bottom: 20px; z-index: 99; }
+.order_provice h3 { font-weight: normal; font-size: 16px; margin-bottom: 16px; text-align: center; color: #666; }
+
+.region_btn_pos { position: relative; display: inline-block; margin-left: 14px; }
+.region_btn_pos .customtype_form_btn { margin-left: 0; }
+.region_btn_pos .order_tips_description_tri { top: -11px; left: 50%; margin-left: -11px; }
+
+.provice_name_lists { border-bottom: 1px solid #e5e5e5; padding-bottom: 10px; }
+.provice_name_lists b { font-weight: normal; font-size: 16px; margin: 8px; display: inline-block; cursor: pointer; color: #999; }
+.provice_name_lists .provice_name { display: inline-block; /* padding-bottom: 8px;
+border-bottom: 1px solid #e5e5e5; */ }
+
+.provice_cities { color: #ff0000; margin-top: 10px; border-bottom: 1px solid #e5e5e5; }
+.provice_cities span { font-size: 16px; margin: 8px; display: inline-block; cursor: pointer; color: #999; }
+
+.provice_name_wide { height: 34px; overflow: hidden; }
+
+.region_choosed { margin-top: 10px; color: #999; line-height: 1.65em; }
+
+.confirm_provice { font-size: 16px; color: #fff; width: 80px; height: 26px; text-align: center; line-height: 26px; background: #eb5169; margin: 20px auto 0; cursor: pointer; }
+
+.order_choosed_params { font-size: 16px; color: #999; margin-left: 30px; margin-top: 18px; }
+.order_choosed_params span { display: inline-block; padding: 2px 6px; line-height: 26px; text-align: center; color: #999; border: 1px solid #d5d5d5; margin-left: 14px; text-indent: 0; cursor: pointer; }
+
+.order_price .customtype_form { width: 284px; margin-left: -76px; }
+.order_price .customtype_form h3 { font-size: 16px; color: #666; margin-top: 16px; }
+.order_price .customtype_form input { width: 240px; height: 32px; line-height: 32px; margin: 20px auto 10px; background: #f5f5f5; color: #dadada; padding-left: 6px; }
+.order_price .customtype_form h6 { font-weight: normal; font-size: 13px; color: #666; }
+.order_price .customtype_form h5 { width: 80px; height: 26px; line-height: 26px; color: #fff; margin: 16px auto 0; background: #eb5169; text-align: center; font-size: 16px; cursor: pointer; }
+
+.order_price_auto { overflow: hidden; }
+.order_price_auto li { float: left; cursor: pointer; font-size: 16px; color: #999; padding: 2px 14px; border: 1px solid #d5d5d5; margin-left: 34px; margin-top: 24px; }
+.order_price_auto li.checked { color: #eb5169; border: 1px solid; }
+
+.order_price_auto_number { width: 950px; height: 82px; line-height: 82px; background: #f5f5f5; font-size: 16px; padding-left: 33px; margin: 30px 0; }
+.order_price_auto_number b { font-weight: normal; font-size: 24px; color: #eb5169; }
+
+.confirm_order { font-size: 20px; color: #fff; cursor: pointer; width: 180px; height: 52px; line-height: 52px; text-align: center; margin: 40px auto; background: #eb5169; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+
+
+
+.ht_box{width:1600px;margin:0 auto;background: #f0f0f0;min-height:1000px;}
+li{list-style: none;}
+/* 头部 */
+.htHeader{width:1600px;height:90px;background: #fefefe;}
+.htHeader_con{width:1300px;margin:0 auto;}
+.ht_logo img{margin-top:30px;margin-left: 40px;}
+.ht_nav{margin-top:28px;font-size: 20px;line-height: 31px;}
+.ht_nav li{float: left;margin:0 60px;}
+.ht_person{margin-right: 45px;color:#b7b7b7;line-height: 31px;margin-top:25px;}
+.ht_person img{margin-bottom:-12px;margin-right:13px;}
+/* 右边内容 */
+.ht_content{width:1300px;margin:40px auto;height:755px;clear: both; }
+.ht_contentC{width:215px;background: #fefefe;height:755px;}
+.ht_content_ul{padding-top: 70px;position: relative;}
+.ht_content_ul>li{height:45px;font-size:18px;line-height: 45px;color:#333333;padding-left: 20px;}
+.ht_content_ul>li i{display: inline-block;width:24px;height:22px;margin-bottom: -5px;margin-right: 14px;}
+.ht_content_ul>li:nth-child(1) i{background: url(../images/ht_list01.png)no-repeat;}
+.ht_content_ul>li:nth-child(2) i{background: url(../images/ht_list02.png)no-repeat;}
+.ht_content_ul>li:nth-child(3) i{background: url(../images/ht_list03.png)no-repeat;}
+.ht_content_ul>li:nth-child(4) i{background: url(../images/ht_list04.png)no-repeat;}
+.ht_content_ul>li:nth-child(5),
+.ht_content_ul>li:nth-child(6),
+.ht_content_ul>li:nth-child(7){font-size:16px;color:#999999;}
+
+.ht_content_ul>li.on{background: #f0f0f0;border-left:2px solid #eb5169;color:#eb5169;}
+.ht_content_ul>li:nth-child(1).on i{background: url(../images/ht_hover01.png)no-repeat;}
+.ht_content_ul>li:nth-child(2).on i{background: url(../images/ht_hover02.png)no-repeat;}
+.ht_content_ul>li:nth-child(3).on i{background: url(../images/ht_hover03.png)no-repeat;}
+.ht_content_ul>li:nth-child(4).on i{background: url(../images/ht_list04.png)no-repeat;}
+/* 个人信息 =============================*/
+.htlist_ul{width:1035px;position: absolute;left:265px;top:0;background: #fefefe;color:#333333;}
+.htlist_ul .htlist_ulC{width:950px;margin:0 auto;}
+.htlist_ulC h3{font-size:20px;line-height:50px;font-weight: normal;width:100%;border-bottom:1px solid #999999;padding-top:30px;}
+.person_info{width:100%;height: 195px;border:1px solid #bbbbbb;margin-top:18px;display: flex;}
+.person_info>img{width:121px;height:121px;margin:36px 30px 0 36px;}
+.person_info_ul{margin-top:35px;}
+.person_info_ul>li{width:290px;float: left;font-size:16px;line-height: 40px;color:#666666;}
+.person_info_ul>li>span{margin-left:15px;color:#b8b8b8;}
+.person_info_ul>li:nth-child(1)>span{color:#333333;}
+.person_info_ul>li:nth-child(5)>span{color:#eb5169;}
+
+.person_ding{display: flex;margin-top: 50px;}
+.person_ding>.ding{width:284px;height:140px;background: #fff6f7;border-radius: 10px;font-size: 20px;color:#666666;}
+.person_ding>.ding>img{margin:38px 15px -23px 30px;}
+.person_ding .ywc{margin:0 50px;}
+.person_ding>.ding>span{color:#eb5169;font-size: 34px;margin-left: 12px;}
+
+
+
+/*订单中心and账户中心 公用样式 ********************* */
+.order_select{height:42px;margin:25px auto;display: flex;}
+.order_select>select{appearance:none;-moz-appearance:none;-webkit-appearance:none;background: url("../images/xl_icon.png") no-repeat scroll 90px center transparent;
+font-size: 16px;color:#666666;padding-left:15px;width:120px;height:40px;border:1px solid #bbbbbb;border-radius: 5px;}
+.order_select .select_time{margin-left:10px;}
+.orderDate{width:360px;height:38px;border:1px solid #bbbbbb;border-radius: 5px;margin-left:10px;font-size: 16px;position: relative;}
+.orderDate img{margin-left:10px;}
+.orderDate>input{border:none;width:110px;height: 30px;background: transparent;padding-left: 35px;line-height: 30px;font-size: 14px;
+	position: absolute;outline: none;}
+.orderDate>span{position: absolute;top:-2px;left:170px;}
+table{font-size: 16px;text-align: center;}
+table td{height:83px;border-bottom:1px dashed #f0f0f0;color:#999999;}
+table th{font-weight: normal;height: 72px;background: #f0f0f0;color:#666666;}
+/* 订单中心 ==============================*/
+.orderCenter{}
+.start_date{top:6px;left:;}
+.end_date{top:6px;left:200px;}
+/*.order_table{height:530px;}*/
+.tableOrder th{padding:0 52px;}
+.tableOrder th:nth-child(1){padding:0 65px;}
+.tableOrder td:nth-child(5){color:#eb5169;}
+/* 账户中心 ==============================*/
+.tableAccount th{padding:0 45px;}
+.tableAccount th:nth-child(6){padding:0 58px;}

@@ -1,0 +1,78 @@
+﻿
+/*联系我们*/
+.contactbanner{float:left;width:100%;position:relative;overflow: hidden;min-width:1900px;}
+.contactbanner .img{width:100%;}
+.contactbanner .bannertext{position:absolute;width:1210px;left:50%;margin-left:-605px;top:24%;}
+.contactbanner .bannertext h2{float:left;width:100%;text-align: center;font-size:36px;color:#fff;}
+.contactbanner .bannertext p{float:left;width:100%;text-align: center;font-size:14px;text-align: center;color:#fff;line-height:27px;margin-top:30px;}
+.contactbanner .bannerinform{position:absolute;width:1210px;left:50%;margin-left:-605px;bottom:20%;text-align: center;}
+.contactbanner .bannerinform .informitem{display: inline-block;width:303px;height:130px;position:relative;text-align: left;}
+.contactbanner .bannerinform .informitem.info01{background:url(../images/contactborder01.png) no-repeat bottom;}
+.contactbanner .bannerinform .informitem.info02{background:url(../images/contactborder02.png) no-repeat bottom;}
+.contactbanner .bannerinform .informitem.info02 a{color:#fff;text-decoration: none;}
+.contactbanner .bannerinform .informitem.info02 a:hover{color:#2392e8;text-decoration: underline;}
+.contactbanner .bannerinform .informitem.info03{background:url(../images/contactborder03.png) no-repeat bottom;cursor:pointer;}
+.contactbanner .bannerinform .informitem p{font-size:16px;color:#fff;line-height:26px;position:absolute;left:15px;bottom:30px;}
+.contactbanner .clickpoint{position:absolute;bottom:42%;left:50%;margin-left:200px;}
+.contactbanner .clickpoint .clicktext{position:absolute;bottom:20px;left:10px;}
+.contactbanner .clickpoint .mappoint{
+	cursor: pointer;
+    -webkit-animation: mappoint 1.5s infinite;
+    -moz-animation: mappoint 1.5s infinite;
+    -o-animation: mappoint 1.5s infinite;
+    -ms-animation: mappoint 1.5s infinite;
+    animation: mappoint 1.5s infinite;
+	position: absolute;
+	top: -15px;
+	left: -10px;
+}
+
+@-webkit-keyframes mappoint{
+    0%{ -webkit-transform:scale(1.0);}
+    50%{ -webkit-transform:scale(1.8);}
+    100%{-webkit-transform:scale(1.0);}
+}
+@-moz-keyframes mappoint{
+    0%{ -moz-transform:scale(1.0);}
+    50%{ -moz-transform:scale(1.8);}
+    100%{ -moz-transform:scale(1.0);}
+}
+@-o-keyframes mappoint{
+    0%{ -o-transform:scale(1.0);}
+    50%{ -o-transform:scale(1.8);}
+    100%{ -o-transform:scale(1.0);}
+}
+@-ms-keyframes mappoint{
+    0%{ -ms-transform:scale(1.0); }
+    50%{ -ms-transform:scale(1.8);}
+    100%{ -ms-transform:scale(1.0);}
+}
+@keyframes mappoint{
+    0%{ transform:scale(1.0);} 
+    50%{transform:scale(1.8); }
+    100%{ transform:scale(1.0);}
+}
+
+#footer{float:left;min-width:1900px;background:#f2f2f2;z-index:1;position:relative;width:100%;}
+#footer .footerinner{width:1210px;margin:0 auto;}
+#footer .footerinner .footertop{float:left;width:100%;border-bottom:1px solid #E3E3E3;padding:50px 0 35px 0;}
+#footer .footerinner .footertop .leftmenu{float:left;width:780px;}
+#footer .footerinner .footertop .leftmenu ul{float:left;width:100%;}
+#footer .footerinner .footertop .leftmenu ul li{float:left;width:260px;margin-bottom:25px;}
+#footer .footerinner .footertop .leftmenu ul li a{font-size:16px;color:#333333;text-decoration: none;}
+#footer .footerinner .footertop .leftmenu ul li a:hover{color:#2392e8;}
+#footer .footerinner .footertop .rightewm{width:252px;} 
+#footer .footerinner .footertop .rightewm img{margin-right:12px;display:inline-block;}
+#footer .footerinner .footertop .rightewm p{font-size: 20px;line-height: 30px;position: relative;}
+#footer .footerinner .footertop .rightewm span{font-size: 14px;}
+#footer .footerinner .footertop .rightewm i{width:40px;height:2px;background: #a2a2a2;display: block;position: absolute;left:110px;bottom:-15px;}
+#footer .footerinner .footerbottom{float:left;width:100%;}
+#footer .footerinner .footerbottom .copyright{clear: both;font-size:12px;color:#111111;line-height:15px;padding: 40px 0px;text-align: center;}
+#footer .footerinner .footerbottom .copyright a{color:#111111;text-decoration: none;}
+
+/*地图*/
+.contact_cover{position: fixed;width: 100%;height: 100%;top: 0;left: 0;background: rgba(0,0,0,0.6);z-index: 999;display: none;}
+.djmap-container{position: fixed;width: 1200px;height:600px;top:50%;left:50%; margin-left: -600px;margin-top: -300px; border: 1px solid;z-index: 99999;/*display: none;*/overflow: hidden;border-radius: 10px;-webkit-boder-radius:10px;-moz-border-radius:10px;background: #fff;}
+#djmap{width: 96%;height: 90%;margin-left: 2%;margin-top: 2.5%;border:1px solid #000;}
+.djmap-close{position: absolute;right: 0;top: 0;width: 30px;height: 30px;background: url(../images/mapspirte.png) 2px 1px no-repeat;cursor: pointer;}
+

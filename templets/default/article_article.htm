@@ -1,0 +1,140 @@
+<!Doctype html>
+<html>
+    
+    <head>
+        <meta http-equiv="content-language" content="zh" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Language" content="en,en-US,en-UK,fr,zh,zh-CN,zh-HK,zh-TW"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+        <title>{dede:global.cfg_webname/}</title>
+        <meta name="description" content="{dede:global.cfg_description/}" />
+        <meta name="keywords" content="{dede:global.cfg_keywords/}" />
+        <link rel="stylesheet" href="http://www.dujin021.com/css/public.css" />
+        <link rel="stylesheet" href="http://www.dujin021.com/css/index.css" />
+        <link rel="stylesheet" type="text/css" href="http://www.dujin021.com/css/media.css" />
+        <link rel="stylesheet" href="http://www.dujin021.com/css/article.css">
+        <script type="text/javascript" src="http://www.dujin021.com/js/jquery-1.10.1.min.js">
+        </script>
+        <script src="http://www.dujin021.com/js/index.js">
+        </script>
+    </head>
+<!--    <style> 
+		.douyin_list{display: none !important;}
+	</style>-->
+    <body class="drawer drawer--right">
+        {dede:include filename="header.htm"/}
+        <div class="art-banner">
+            <img src="http://www.dujin021.com/images/contact_banner.jpg">
+        </div>
+        
+        <div class="art-content">
+        
+			<div class="title">
+				<h1>{dede:field.title/}</h1>
+				<div>
+					<span>发布时间：{dede:field.pubdate function="MyDate('Y-m-d',@me)"/}</span> <span>点击数：{dede:field.click/}</span>					</div>
+			</div>
+        	<div class="text">{dede:field.body/}</div>
+        	
+        	<div class="like linkeBut">
+				<a href="javascript:;">
+					<div class="like-img">
+						<small><i><img src="http://www.dujin021.com/images/like.png"><img
+								src="http://www.dujin021.com/images/like2.png"></i></small>
+					</div>
+					<div class="like-sp">
+						<span>鼓励一下（<font class="likeNum">736</font>）</span>
+					</div>
+				</a>
+			</div>
+			
+			<script>
+//				$(function(){
+//					var is_click = false;
+//					$('.linkeBut').click(function(){
+//						if(is_click == false){
+//							var _this = $(this);
+//							$.ajax({
+//								 url : "/index/Lists/love.html",
+//								 dataType : 'json',
+//								 data:{
+//									 id : '477',
+//									 catid : '16'
+//								 },
+//								 error : function(){
+//									console.log('网络错误'); 
+//								 },
+//								 success : function(res){
+//									 if(res.error == 0){
+//										 is_click = true;
+//										 var num = parseInt(_this.find('.likeNum').text());
+//										 _this.find('.likeNum').html(num+1);
+//										 _this.addClass("active");
+//									 }else{
+//										 console.log(res.message);
+//									 }
+//								 }
+//							 })
+//						}
+//
+//					})
+//
+//				})
+			</script>
+		
+		</div>
+        <!--6-->
+        <div class="section home6" style="background-color: #f8f8f8;">
+            <div class="w1560">
+                <div class="cl">
+                    <div class="hm6li hm6li1 fl disv wow slideInUp" data-wow-duration="1.5s"
+                    data-wow-delay="0.2s">
+                        <div class="disvc">
+                            <h2>
+                                <a href="https://www16.53kf.com/webCompany.php?kf_sign=DExMjMTUzOk4MjEwNTczNTA0ODI4MDA4&arg=10183912&style=1"
+                                target="_blank">
+                                    继续在老套路中化作尘埃
+                                </a>
+                            </h2>
+                            <div class="hm6but hm6pg">
+                                <a href="https://www16.53kf.com/webCompany.php?kf_sign=DExMjMTUzOk4MjEwNTczNTA0ODI4MDA4&arg=10183912&style=1"
+                                target="_blank">
+                                    评估旧网站
+                                </a>
+                            </div>
+                        </div>
+                        <i>
+                        </i>
+                        <em>
+                        </em>
+                    </div>
+                    <div class="hm6li hm6li2 fl disv wow slideInUp" data-wow-duration="1.5s"
+                    data-wow-delay="0.4s">
+                        <div class="disvc">
+                            <h2>
+                                <a href="https://www16.53kf.com/webCompany.php?kf_sign=DExMjMTUzOk4MjEwNTczNTA0ODI4MDA4&arg=10183912&style=1"
+                                target="_blank">
+                                    还是厚积薄发开启新里程
+                                </a>
+                            </h2>
+                            <div class="hm6but hm6pg">
+                                <a href="/index/Lists/index/catid/17.html#fmsect" target="_blank">
+                                    获取新方案
+                                </a>
+                            </div>
+                        </div>
+                        <i>
+                        </i>
+                        <em>
+                        </em>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- home6 -->
+        {dede:include filename="footer.htm"/}
+    </body>
+
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>订单中心</title>
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="http://www.dujin021.com/css/public.css" />
+    <link rel="stylesheet" href="http://www.dujin021.com/css/order_center.css" />
+    <script type="text/javascript" src="http://www.dujin021.com/js/jquery-1.11.3.min.js"></script>
+    <script src="http://www.dujin021.com/js/vue-2.x.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    {dede:include filename="header.htm"/}
+    <div class="ht_box" id="order-center">
+        <!--<div class="htHeader">
+            <div class="htHeader_con">
+                <div class="ht_logo fl"><img src="/images/ht_logo.png" alt=""></div>
+                    <div class="ht_nav fl">
+                        <li><a href="">首页</a></li>
+                        <li><a href="">抖音运营</a></li>
+                        <li><a href="">DOU+加速</a></li>
+                        <li><a href="">关于我们</a></li>
+                    </div>
+                    <div class="ht_person fr"><img src="/images/ht_yh_icon.png" alt="">倒影年华&nbsp;&nbsp; | &nbsp;&nbsp;退出</div>
+                    </div>
+                </div>-->
+               
+                <div class="clear"></div>
+                <div class="ht_content">
+                    <div class="ht_contentC">
+                        <ul class="ht_content_ul">
+                            <li>
+                                <i></i>用户中心
+
+                            </li>
+                            <li class="selected">
+                                <i></i>订单中心
+
+                            </li>
+                            <li>
+                                <i></i>充值与消费
+                            </li>
+                            <li>
+                                <i></i>个人资料
+                            </li>
+                            <li><i></i>资料编辑</li>
+                            <li><i></i>修改手机号码</li>
+                            <li><i></i>修改密码</li>
+                        </ul>                        
+                    </div>
+                    <div class="htlist_ul">
+                            <div class="htlist_ulC">
+                                <h3>订单中心</h3>
+                                <div class="orderCenter">
+                                    <div class="order_select">
+                                        <select name="" id="" class="select_or">
+                                            <option value="全部">全部</option>
+                                            <option value="已完成">已完成</option>
+                                            <option value="执行中">执行中</option>
+                                            <option value="执行中">待支付</option>
+                                            <option value="执行中">待审核</option>
+                                        </select>
+                                        <select name="" id="" class="select_time">
+                                            <option value="下单时间">下单时间</option>
+                                            <option value="1:00">1:00</option>
+                                            <option value="2:00">2:00</option>
+                                        </select>
+                                        <div class="orderDate">
+                                            <img src="/images/date_icon.png" alt="">
+                                            <input type="text" class="start_date" placeholder="开始日期"><span>至</span>
+                                            <input type="text" class="end_date" placeholder="结束日期">
+                                        </div>
+                                    </div>
+                                    <div class="order_table">
+                                        <table cellspacing="0" class="tableOrder">
+                                            <tr>
+                                                <th>时间</th>
+                                                <th>投放金额</th>
+                                                <th>+流量 </th>
+                                                <th>投放形式 </th>
+                                                <th>订单状态</th>
+                                                <th>备注</th>
+                                            </tr>
+                                            <tr v-for="(item,index) in orderList">
+                                                <td>{{timeString(item.CreateDateTime)}}</td>
+                                                <td>{{item.Money}}</td>
+                                                <td>{{item.Serving}}</td>
+                                                <td>{{item.OrderType}}</td>
+                                                <td>{{item.Status}}</td>
+                                                <td><a href="">详情</a></td>
+                                            </tr>
+                                           <!-- <tr>
+                                                <td>2018-11-15 13:55:23</td>
+                                                <td>100</td>
+                                                <td>5000</td>
+                                                <td>精准投放</td>
+                                                <td>待审核</td>
+                                                <td><a href="">详情</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2018-11-15 13:55:23</td>
+                                                <td>100</td>
+                                                <td>5000</td>
+                                                <td>精准投放</td>
+                                                <td>已完成</td>
+                                                <td><a href="">详情</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2018-11-15 13:55:23</td>
+                                                <td>100</td>
+                                                <td>5000</td>
+                                                <td>精准投放</td>
+                                                <td>已完成</td>
+                                                <td><a href="">详情</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2018-11-15 13:55:23</td>
+                                                <td>100</td>
+                                                <td>5000</td>
+                                                <td>精准投放</td>
+                                                <td>系统自动结束</td>
+                                                <td><a href="">详情</a></td>
+                                            </tr>-->
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+	<script src="/js/order_center.js"></script>
+</body>
+
+</html>

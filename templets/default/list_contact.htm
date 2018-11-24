@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh_cn" lang="zh_cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="zh_cn" />
+	<meta name="renderer" content="webkit"/>
+	<title>联系我们</title>
+	
+	<link rel="stylesheet" type="text/css" href="http://www.dujin021.com/css/public.css" />
+	<link rel="stylesheet" type="text/css" href="http://www.dujin021.com/css/contact.css" />
+	<link rel="stylesheet" href="http://www.dujin021.com/css/contact-prettyphoto.css">
+	<!-- ******************************************************js********************************* -->
+	<script type="text/javascript" src="http://www.dujin021.com/js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="http://www.dujin021.com/js/webfoss.preloader.js"></script>
+	<script type="text/javascript" src="http://www.dujin021.com/js/jquery.prettyphoto.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=SgI1XE1GyrcclnKtPWCjNOd5RVLMzcFs"></script>
+</head>
+<!-- ******************************************************body********************************* -->
+<body class="action--site-contact controller--site">
+	<div class="container" id="page">
+{dede:include filename="header.htm"/}
+<!-- header -->
+<script>
+	$(function() {
+			//根据路径判断添加导航的class
+		var nowPath = window.location.pathname;//判断当前路径
+		for(var i=0;i<$("#mainmenu li").length;i++){
+			var navLink = $('#mainmenu li').eq(i).children('a').attr('href').substring(1)//遍历每个导航下的链接名称
+			if(nowPath.indexOf(navLink)>0){//不够严谨,后期有时间改进下
+				$('#mainmenu li').eq(i).addClass('active').siblings().removeClass('active');
+				
+				
+			}
+			
+		}
+		
+			var st = 200;
+			$('#arrh').mouseenter(function () {
+				$(this).find('.douyin_list').stop(false, true).slideDown(st);
+			}).mouseleave(function () {
+				$(this).find('.douyin_list').stop(false, true).slideUp(st);
+			});
+		
+		
+				/*$("#arrh").mouseenter(function() {
+					$('.douyin_list').slideDown();
+				});
+				$("#arrh").mouseleave(function() {
+					$('.douyin_list').slideUp();
+				});*/
+				$('.douyin_list_dl dl').hover(function() {
+					$(this).addClass("on").siblings("dl").removeClass("on");
+				});
+
+
+			})
+</script>
+       <div class="pagebody">
+			<div class="contactbanner">
+				<img class="img" alt="" src="http://www.dujin021.com/images/contactbanner.jpg"/>
+				<div class="bannertext">
+					<h2>联系我们 / Contact Us</h2>
+					<p>无论你身在何处，度进与你的距离只有5秒</p>
+				</div>
+				<div class="clickpoint">
+					<a class="map" onClick="showMap()">
+						<img class="mappoint" alt="" src="http://www.dujin021.com/images/pointcontact.png" />
+						<img class="clicktext" src="http://www.dujin021.com/images/clicktext.png" />
+					</a>        
+				</div>
+				<div class="bannerinform">
+					<div class="informitem info01">
+						<p>电话：<br />
+							400-040-2120</p>
+					</div>
+					<div class="informitem info02" style="margin:0 80px;">
+						<p>邮箱：<br />
+							<a href="mailto:service@dujin021.com">service@dujin021.com </a></p>
+					</div>
+					<div class="informitem info03">
+						<p>地址：<br />
+							上海市宝山区逸仙路2816号B座14楼</p>
+					</div>
+				</div>
+			</div>
+		<script>
+			$(document).on('click', 'a.map', function(e) {
+				$.fn.prettyPhoto({'social_tools': '', 'autoplay': false, 'allow_resize': false});
+				e.preventDefault();
+				$.prettyPhoto.open($(this).attr('href'), $(this).attr('title'));
+			});
+			$(document).on('click', '.bannerinform .info03', function(e) {
+				$.fn.prettyPhoto({'social_tools': '', 'autoplay': false, 'allow_resize': false});
+				e.preventDefault();
+				$.prettyPhoto.open($('a.map').attr('href'), $('a.map').attr('title'));
+			});
+		</script>            
+    </div>
+	<div id="footer">
+		<div class="footerinner">
+			<div class="footertop">
+				<div class="leftmenu">
+					<ul>
+						<li><a href="/about" title="关于度进-上海网站建设升级">关于度进</a></li>
+						<li><a href="/case" title="抖音运营-上海抖音运营公司哪家好">抖音运营</a></li>
+						<li><a href="/contact" title="联系我们-上海网站设计建设">联系我们</a></li>
+						<li><a href="/service" title="服务体系-上海网站建设联系方式">服务体系</a></li>
+						<li><a href="" title="整合营销-上海网站营销顾问">整合营销</a></li>
+						<li><a href="" target='_blank' title="Dou+加速-上海抖音加速传播">Dou+加速</a></li>
+
+					</ul> 
+				</div>
+
+				<div class="rightewm fr"> 
+					<img src="http://www.dujin021.com/images/footer_ewm.png" alt="" class="fl">
+					<p>微信扫描二维码<br><span>免费获取方案报价</span><i></i></p>
+				</div>
+			</div>
+			<div class="footerbottom">
+				<p class="copyright">Copyright© 2011 - 2016 Shanghai <a href="/">dujin</a> Network Technology Corp.Ltd 上海度进信息科技有限公司 版权所有</p>
+			</div>
+		</div>
+	</div>
+  </div>	
+	
+	<div class="contact_cover">
+		<div class="djmap-container">
+			<p class="djmap-close" onClick="hideMap()"></p>
+			<div id="djmap"></div>
+		</div>
+	</div>
+	<script>
+		function showMap(){
+			$(".contact_cover").show()
+			var map = new BMap.Map("djmap");          // 创建地图实例  
+			var point = new BMap.Point(121.50052,31.342622);  // 创建点坐标  
+			/*var markerArr = [{title:"上海度进信息科技有限公司",content:"上海宝山区逸仙路2816号B栋14楼",point:"121.494720|31.257323",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}];*/
+			map.centerAndZoom(point, 15); 
+			map.enableScrollWheelZoom(true);
+			//添加地图缩放
+			map.addControl(new BMap.NavigationControl()); 
+			//添加比例尺
+			map.addControl(new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT})); 
+			//添加小地图
+			map.addControl(new BMap.OverviewMapControl({isOpen:true})); 
+			//添加地图方式
+			map.addControl(new BMap.MapTypeControl());
+			//map.addControl(new BMap.Icon("http://wf.review.webfoss.com/themes/basic/skin/images/iconmap.png", new BMap.Size(99,106)));
+			var marker = new BMap.Marker(point);        // 创建标注  
+			//marker.addEventListener("click", function(){   //监听地图标志点击事件 
+				addMarkerText()    
+			//});
+			map.addOverlay(marker)
+			function addMarkerText(){
+					var opts = {    
+					width : 250,     // 信息窗口宽度    
+					height: 110,     // 信息窗口高度    
+					title : "<img src='/images/contact_map_title.png' style='display:block;margin-bottom:10px'/><span style='color:#2893e7;font-size:18px;'>上海度进信息科技有限公司</span>",  // 信息窗口标题 
+					isOpen:false
+				}    
+				var infoWindow = new BMap.InfoWindow("<span style='color:#333;font-size:14px;'>上海市宝山区逸仙路2816号B座14楼</span>", opts);  // 创建信息窗口对象 
+				map.openInfoWindow(infoWindow, map.getCenter()); 
+			}
+		}
+		function hideMap(){
+			$(".contact_cover").hide()
+		}
+		 
+	</script>
+</body>
+</html>

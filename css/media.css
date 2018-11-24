@@ -1,0 +1,1506 @@
+﻿#4971c64971c64971c64971c64971c64971c6@charset"utf-8";
+.fw1smdiv:hover .title p{
+		opacity: 0;
+		top: 50px;
+	}
+	.fw1smdiv:hover .list{
+		top: 180px;
+	}
+	.fw1smdiv:hover .list li a{
+		font-size: 22px;
+		line-height: 50px;
+	}
+@media screen and (min-width: 1279px){
+	.hmmore:hover span{
+		color: #206231;
+	}
+	.hmmore:hover small{
+		animation: hm2jians 0.6s ease 0s infinite;
+		-webkit-animation: hm2jians 0.6s ease 0s infinite;
+		-moz-animation: hm2jians 0.6s ease 0s infinite;
+		-o-animation: hm2jians 0.6s ease 0s infinite;
+	}
+	.nav>li:hover>a div span{
+		top: -18px;
+	}
+	.seachbut a:hover{
+		background-color: rgba(32,98,49,.8);
+	}
+	.banbut a:hover:before{
+		height: 100%;
+		background-color: #206231;
+		opacity: .5;
+	}
+	.fotdizhi:hover strong,.fotdizhi:hover p{
+		color: #f6f6f6;
+	}
+	.fotli ul li:hover a{
+		color: #fff;
+		text-decoration: underline;
+	}
+	.bdshare-button-style0-16 a:hover{
+		opacity: 1;
+	}
+	.fotfrbotm p a:hover{
+		color: #fff;
+	}
+	
+	.topul li:hover p{
+		color: #565656;
+	}
+	.hm2dl:hover dt img{
+		transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-o-transform: scale(1.1);
+	}
+	.hm2dl:hover .hm2dtdiv{
+		background-color: rgba(31,113,178,.85);
+	}
+	.hm2dl:hover .hm2dtdiv:after,.hm2dl:hover .hm2dtdiv:before{
+		width: 100%;
+		height: 100%;
+	}
+	.hm2dl:hover .hm2dtdiv div{
+		opacity: 1;
+		transform: scale(1);
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-o-transform: scale(1);
+	}
+	.hm2dl:hover .hm2jian{
+		animation: hm2jian 0.6s ease 0s infinite;
+		-webkit-animation: hm2jian 0.6s ease 0s infinite;
+		-moz-animation: hm2jian 0.6s ease 0s infinite;
+		-o-animation: hm2jian 0.6s ease 0s infinite;
+	}
+	.hm2dl:hover .hm2jian a i img{
+		opacity: 0;
+	}
+	.hm2dl:hover .hm2jian a i img:nth-child(2){
+		opacity: 1;
+	}
+	.hm3bottom a:hover{
+		background-color: rgba(255,255,255,.3);
+	}
+	.hm4li:hover{
+		padding-top: 10px;
+	}
+	.hm4li:hover .hm4litxt{
+		margin-top: 10px;
+	}
+	.hm4li:hover .hm4litxt .txt{
+		visibility: visible;
+		opacity: 1;
+		left: 0;
+	}
+	
+	.hm4text:hover .hm4-left{
+		left: 80px;
+	}
+	.hm4text:hover .hm4-right{
+		right: 80px;
+	}
+	.hm5li:hover{
+		background-color: #031e59;
+	}
+	.hm5li:hover .hm5lifl p span,
+	.hm5li:hover .hm5lifl small,
+	.hm5li:hover .hm5lifrdiv p,
+	.hm5li:hover .hm5lifr .more span{
+		color: #fff;
+	}
+	.hm5li:hover .timesg i img{
+		opacity: 0;
+	}
+	.hm5li:hover .timesg i img:nth-child(2){
+		opacity: 1;
+	}
+	.hm5li:hover .hm5jian{
+		animation: hm2jian 0.6s ease 0s infinite;
+		-webkit-animation: hm2jian 0.6s ease 0s infinite;
+		-moz-animation: hm2jian 0.6s ease 0s infinite;
+		-o-animation: hm2jian 0.6s ease 0s infinite;
+	}
+	.hm5li:hover .hm5jian i img{
+		opacity: 0;
+	}
+	.hm5li:hover .hm5jian i img:nth-child(2){
+		opacity: 1;
+	}
+	.hm5li:hover .hm5lifrdiv:after{
+		top: 10px;
+		opacity: 1;
+	}
+	.hm6li:hover i:after{
+		animation: hm6li 3s ease 0s infinite;
+		-webkit-animation: hm6li 3s ease 0s infinite;
+		-moz-animation: hm6li 3s ease 0s infinite;
+		-o-animation: hm6li 3s ease 0s infinite;
+	}
+	.hm6li:hover em:after{
+		animation: hm6li2 3s ease 0s infinite;
+		-webkit-animation: hm6li2 3s ease 0s infinite;
+		-moz-animation: hm6li2 3s ease 0s infinite;
+		-o-animation: hm6li2 3s ease 0s infinite;
+	}
+	.hm6li:hover h2{
+		margin-top: 20px;
+	}
+	.fw1smdiv:hover .title p{
+		opacity: 0;
+		top: 50px;
+	}
+	.fw1smdiv:hover .list{
+		top: 180px;
+	}
+	.fw1smdiv:hover .list li a{
+		font-size: 22px;
+		line-height: 50px;
+	}
+	 .fwbox2 .fw1smdiv:hover .list li a{
+		color: #222;
+	}
+	.fwbox1 .fw1smdiv:hover .list li a{
+		color: #fff;
+	}
+	.fwbox .but a.but1:hover{
+		opacity: 0.8;
+	}
+	.fwbox1 .but a.but2:hover,
+	.fwbox2 .but a.but2:hover{
+		border-color: #fff;
+		color: #4971c6;
+		background-color: #fff;
+	}
+	.casenav li.active a:after,
+	.casenav li.active a:before,
+	.casenav li:hover a:after,
+	.casenav li:hover a:before{
+		width: 100%;
+	}
+	
+	.case-pbldl:hover dt img{
+		transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-o-transform: scale(1.1);
+	}
+	.case-pbldl:hover .case-pblddiv{
+		opacity: 1;
+	}
+	.case-pbldl:hover .case-pblddiv h3{
+		top: 0;
+	}
+	.case-pbldl:hover .case-pblddiv div span{
+		top: 0;
+		opacity: 1;
+	}
+	.case-pblddiv div:hover span:after,
+	.case-pblddiv div:hover span:before{
+		width: 100%;
+	}
+	.case-pbldl:hover .case-but:after{
+		background-color: #206231;
+	}
+	.case-pbldl:hover .case-but small{
+		animation: casebut 0.5s ease 0s infinite;
+		-webkit-animation: casebut 0.5s ease 0s infinite;
+		-moz-animation: casebut 0.5s ease 0s infinite;
+		-o-animation: casebut 0.5s ease 0s infinite;
+	}
+	.case-pbldl:hover .case-but small img{
+		opacity: 0;
+	}
+	.case-pbldl:hover .case-but small img:nth-child(2){
+		opacity: 1;
+	}
+	.ml-but:hover{
+		width: 230px;
+	}
+	.ml-but:hover small{
+		background-color: #206231;
+	}
+	.ml-prev:hover small{
+		left: 180px;
+	}
+	.ml-next:hover small{
+		right: 180px;
+	}
+	.ml-but:hover .mlbut-div{
+		width: 250px;
+		opacity: 1;
+	}
+	.ml-buts:hover,
+	.ml-buts:hover .mlbut-div{
+		width: 220px;
+	}
+	.view span:hover:after,.view span:hover:before{
+		width: 100%;
+	}
+	.view:hover small{
+		animation: casebut 0.6s ease 0s infinite;
+		-webkit-animation: casebut 0.6s ease 0s infinite;
+		-moz-animation: casebut 0.6s ease 0s infinite;
+		-o-animation: casebut 0.6s ease 0s infinite;
+	}
+	/*.nnavlist li:hover:after,
+	.nnavlist li:hover:before{
+		width: 100%;
+	}*/
+	/*.nnavlist li:hover small img{
+		opacity: 0;
+	}
+	.nnavlist li:hover small img:nth-child(2){
+		opacity: 1;
+	}
+	.nnavlist li:hover span{
+		color: #206231;
+	}*/
+	.nnavlist li:hover{
+		background-color: #4a7f57;
+	}
+	.khjingdl dt:hover img{
+		transform: scale(1.05);
+	}
+	.khjingdl dt:hover small{
+		visibility: visible;
+		opacity: 1;
+		top: 0;
+	}
+	.khjingdl:hover .khjingtit h3:nth-child(1) a,
+	.khjingdl:hover .khjingsmdiv2 p a{
+		color: #317242;
+	}
+	.jlbut a:hover{
+		background-color: #206231;
+	}
+	.jlbut a:hover small img{
+		opacity: 0;
+	}
+	.jlbut a:hover small img:nth-child(2){
+		opacity: 1;
+	}
+	.jlbut a:hover span{
+		color: #fff;
+	}
+	.jlload a:hover small{
+		animation: jlbut 0.5s ease 0s infinite;
+		-webkit-animation: jlbut 0.5s ease 0s infinite;
+		-moz-animation: jlbut 0.5s ease 0s infinite;
+		-o-animation: jlbut 0.5s ease 0s infinite;
+	}
+	.serveul li:hover .servelismdiv{
+		visibility: visible;
+		opacity: 1;
+	}
+	.serveul li:hover .servelismdiv h3,
+	.serveul li:hover .servelismdiv p{
+		top: 0;
+		opacity: 1;
+	}
+	.fwmore a:hover{
+		color: #317242;
+	}
+	.servebut a:hover{
+		background-color: #206231;
+		color: #fff;
+	}
+	.zhisdl:hover .img a img{
+		transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-o-transform: scale(1.1);
+	}
+	.zhisdl:hover:after{
+		top: 0;
+		opacity: 1;
+	}
+	.zhisdl:hover .flei span{
+		color: #fff;
+	}
+	.zhisdl:hover .flei small img{
+		opacity: 0;
+	}
+	.zhisdl:hover .flei small img:nth-child(2){
+		opacity: 1;
+	}
+	.zhisdl:hover .title h3 a{
+		color: #fff;
+	}
+	.zlbanbut a:hover{
+		background-color: rgba(32,98,49,.7);
+		color: #fff;
+	}
+	.ckpj a:hover{
+		background-color: #206231;
+		color: #fff;
+	}
+	.zl-dl:hover dt span{
+		opacity: 0;
+	}
+	.zl-dl:hover dd{
+		opacity: 1;
+	}
+	.zl-dl:hover dd h3,.zl-dl:hover dd span{
+		top: 0;
+	}
+	.hm1fldivs:hover .zlswiper-prev{
+		left: 80px;
+		opacity: 1;
+	}
+	.hm1fldivs:hover .zlswiper-next{
+		right: 80px;
+		opacity: 1;
+	}
+	.zhulumbut a:hover{
+		background-color: #296d3b;
+		color: #fff;
+	}
+	.newli dl dt:hover img{
+		transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-o-transform: scale(1.1);
+	}
+	.newli:hover{
+		background-color: #f8f8f8;
+	}
+	.newli:hover dl .time,
+	.newli:hover dl h3{
+		padding-left: 50px;
+	}
+	.newli:hover dl .tit h3:after{
+		width: 30px;
+	}
+	.seachxx:hover{
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+	}
+	.hm6li1:hover .hm6but a:after,.hm6li2:hover .hm6but a:after{
+		top: 0;
+		opacity: 1;
+	}
+	.hm6li1:hover .hm6but a{
+		color: #4971c6;
+	}
+	.hm6li2:hover .hm6but a{
+		color: #fff;
+	}
+	.hm2text .ckaaa:hover{
+		border-color: #206231;
+		background-color: #206231;
+		color: #fff;
+	}
+	.zhululogo li:hover img{
+		-webkit-filter: grayscale(0%);
+	    -moz-filter: grayscale(0%);
+	    -ms-filter: grayscale(0%);
+	    -o-filter: grayscale(0%);
+	    opacity: 1;
+	}
+
+}
+
+
+
+/*---------------------------------------------------------------------------------------------1800px*/
+@media screen and (max-width: 1800px){
+/*
+header*/
+.navbox{ padding-left: 70px; }
+/*
+footer*/
+.fotli{ margin-right: 110px; }
+}
+
+/*---------------------------------------------------------------------------------------------1700px*/
+@media screen and (max-width: 1700px){
+.w1560{ width: 1400px; }
+/*
+header*/
+.navbox{ padding-left: 110px; }
+.nav>li>a{ width: 110px; }
+/*
+footer*/
+.fotli{ margin-right: 90px; }
+/*
+banner*/
+.bantxt p{ font-size: 50px; }
+.hm2tit .topdiv strong{ font-size: 74px; }
+.topul li p{ font-size: 14px; }
+.hm2dl dd{ padding-top: 14px; padding-bottom: 14px; }
+.hm3bottom h2{ font-size: 40px; }
+.hm3bottom a{ font-size: 18px; }
+.hm4litxt h3{ font-size: 20px; }
+.hmtit h2 span{ font-size: 56px; }
+.hmtit h2 small{ font-size: 20px; }
+.hmtit p{ font-size: 22px; }
+.hm5lifrdiv{ padding-top: 40px; }
+.hm5lifrdiv p{ font-size: 18px; line-height: 30px; }
+.hm6li h2 a{ font-size: 34px; }
+.hm6li .hm6but a,.hm2text .ckaaa{ font-size: 18px; }
+.home2 .row{ font-size: 0; }
+.home2 .col-md-3,.home2 .col-md-6,.home2 .col-md-12{ float: initial !important; display: inline-block; vertical-align: top; }
+.hm4li{ padding-left: 20px; padding-right: 20px; }
+/* ----------------------------------02-case*/
+.case-tit{ margin-top: 65px; }
+.casenav{ margin-top: 50px; margin-bottom: 40px; }
+.case-pbldl dd{ padding-top: 40px; padding-bottom: 40px; }
+.hm5li{ height: 207px; }
+.casetxt-ml{ width: 95%; }
+.zhltit h2{ font-size: 50px; }
+.zhltit p{ font-size: 38px; }
+.zhulubglist li{ margin-right: 20px; transform: scale(0.8); -webkit-transform: scale(0.8); -moz-transform: scale(0.8); -o-transform: scale(0.8); }
+.zhulubglist div{ top: 210px; }
+/* ----------------------------------07-zhulu*/
+.zhulubig p.pbig{ font-size: 44px; }
+.zhulubig p{ font-size: 26px; }
+.zhulusml{ margin-bottom: 60px; }
+.zhulusml p{ font-size: 16px; line-height: 30px; }
+.zhulumtxt{ padding-bottom: 100px; }
+.zlbandiv h2 span{ font-size: 38px; line-height: 56px; }
+.bantxt p{
+	font-size: 38px;
+}
+.zlbanbut{ margin-top: 56px; }
+/*
+*/
+.tandiv{ width: 640px; height: 330px; }
+.tantext h2{ font-size: 30px; line-height: 42px; }
+.tanbut a{ width: 210px; height: 50px; line-height: 50px; font-size: 22px; }
+.tansmldiv .tel a{ font-size: 22px; }
+.tanxx img{ width: 22px; }
+}
+
+/*---------------------------------------------------------------------------------------------1599px*/
+@media screen and (max-width: 1700px){
+.fotdizhi p,
+.fotli ul li a{
+	font-size: 13px;
+}
+}
+@media screen and (max-width: 1599px){
+.w1560{ width: 1200px; }
+/*
+header*/
+.logo a{ padding-left: 30px; padding-right: 30px; }
+.nav>li>a{ width: 95px; }
+.nav>li>a div span{ font-size: 16px; }
+.headcontact span a{ font-size: 22px; }
+/*
+footer*/
+.fotli{ margin-right: 50px; }
+/*
+banner*/
+.bantxt p{ font-size: 36px; letter-spacing: 5px; }
+.banbut a{ font-size: 18px; }
+.hmtit h2{ height: 50px; }
+.hmtit h2 span{ font-size: 50px; height: 50px; line-height: 60px; }
+.hmtit h2 small{ font-size: 18px; }
+.hmtit p{ font-size: 20px; }
+.hm1frtit h3{ margin-top: 0; }
+.hm1frtit h3 span{ font-size: 46px; }
+.hm1frtit h3 small{ font-size: 32px; }
+.hm1frlist li a{ font-size: 16px; line-height: 36px; }
+.hm1frdiv{ height: 530px; }
+.hm1fldiv:after{ height: 260px; }
+.home2{ padding-top: 80px; padding-bottom: 210px; }
+.hm2tit .topdiv .titen{ font-size: 22px; }
+.hm2tit .topdiv .titcn{ font-size: 18px; }
+.hm2tit .topdiv strong{ font-size: 65px; }
+.topul li p{ font-size: 14px; }
+.hm2dl{ margin-bottom: 15px; }
+.hm2dl dd{ padding-top: 10px; padding-bottom: 10px; }
+.hm2dl dd span{ font-size: 16px; }
+.hm2dl dd small{ font-size: 12px; }
+.home2 .row{ margin-left: -10px; margin-right: -10px; }
+.home2 .col-md-3,.home2 .col-md-6,.home2 .col-md-12{ /*padding-left: 5px; padding-right: 10px;*/ }
+.hm3top{ height: 200px; top: -100px; }
+.hm3top li{ margin-left: 65px; margin-right: 65px; }
+.hm3top li strong{ font-size: 65px; }
+.hm3top li span{ font-size: 14px; }
+.hm3bottom{ margin-top: 100px; }
+.hm3bottom h2{ font-size: 34px; line-height: 60px; }
+.hm3bottom h2{ font-size: 30px; }
+.hm5lifrdiv{ padding-top: 30px; }
+.hm5lifrdiv p{ font-size: 16px; line-height: 28px; }
+.hm5lifr .more{ bottom: 60px; }
+.hm6li h2{ margin-bottom: 40px; }
+.hm6li h2 a{ font-size: 30px; }
+.hm2dtdiv h3{ font-size: 28px; letter-spacing: 2px; }
+.hm2dtdiv p{ font-size: 16px; letter-spacing: 1px; }
+.seachinp input{ font-size: 26px; }
+.hm5li{ height: 173px; }
+/* ----------------------------------01-fuwu*/
+.fwbox .title h2 span.en{ font-size: 50px; }
+.fwbox .title h2 span.cn{ font-size: 34px; }
+/* ----------------------------------02-case*/
+.container{ width: 1100px; }
+.inside-tit h2{ margin-bottom: 0; }
+.inside-tit h2 span.en{ font-size: 50px; }
+.inside-tit p{ font-size: 26px; }
+.casenav{ margin-top: 40px; margin-bottom: 30px; }
+.case-pbldl dd{ padding-top: 25px; padding-bottom: 25px; }
+.case-pbldl dd h3 a{ font-size: 22px; }
+.case-but{ width: 55px; height: 55px; line-height: 55px; }
+.case-but small img{ width: 22px; }
+.case-pblddiv h3{ font-size: 24px; }
+.case-pblddiv div span{ font-size: 16px; }
+/* ----------------------------------03-case-txt*/
+.casetxt-ml{ height: 50px; }
+.ml-but,.ml-but small{ width: 50px; height: 50px; }
+.ml-but small{ line-height: 50px; }
+.ml-but.ml-prev small img,
+.ml-but.ml-next small img{ width: 20px; }
+.ml-but.ml-prev .mlbut-div{ padding-right: 30px; }
+.ml-but.ml-tit .mlbut-div,
+.ml-but.ml-next .mlbut-div{ padding-left: 30px; }
+.ml-but .mlbut-div{ height: 50px; line-height: 50px; }
+.ml-buts,.ml-buts small{ width: 40px; height: 40px; }
+.ml-buts small{ line-height: 40px; }
+.ml-buts.ml-prev small img,
+.ml-buts.ml-next small img{ width: 15px; }
+.ml-buts.ml-prev .mlbut-div{ padding-right: 20px; }
+.ml-buts.ml-tit .mlbut-div,
+.ml-buts.ml-next .mlbut-div{ padding-left: 20px; }
+.ml-buts .mlbut-div{ height: 40px; line-height: 40px; }
+.ml-buts .mlbut-div span{ font-size: 14px; }
+.caseban-txt h1{ font-size: 28px; }
+.caseban-txt div p{ font-size: 16px; line-height: 24px; letter-spacing: 1px; }
+.shuom h2{ font-size: 40px; }
+/* ----------------------------------04-kehupj-txt*/
+.nnavlist li{ height: 80px; }
+.nnavlist li small img{
+	height: 20px;
+}
+.nnavlist li span{ font-size: 15px; }
+.khjingdl dt{ width: 250px; }
+.khjingdl dd, .khjinglidiv{ width: 750px; }
+.khjingdl dd{ padding-top: 40px; padding-bottom: 45px; }
+.khjingli{ padding-top: 20px; padding-bottom: 20px; }
+/* ----------------------------------05-fuwuqy*/
+.serve .title h3{ font-size: 28px; }
+/* ----------------------------------06-zhishixx*/
+.zhisdl .title h3 a{ font-size: 18px; }
+.zhisdl .title h3{ margin: 0; }
+.zhisdl .title{ margin-top: 35px; margin-bottom: 30px; }
+/* ----------------------------------07-zhulu*/
+.zhulucount ul li span{ font-size: 50px; line-height: 40px; }
+.zhulucount ul li small{ font-size: 14px; }
+/* ----------------------------------08-newlist*/
+.mntitle h2{ font-size: 50px; }
+.mntitle span{ font-size: 30px; }
+.newli dl .month{ font-size: 26px; }
+.newli dl .tit h3 a{ font-size: 24px; }
+/* ----------------------------------11-join*/
+.joinlitit h3{ font-size: 18px; }
+.mntitle{ margin-top: 50px; }
+.title.mntitle p{ margin-top: 30px; }
+/* ----------------------------------09-contact*/
+.mapcontul li{ padding-right: 30px; padding-left: 30px; }
+.mapcontul li div span,.mapcontul li div strong{ line-height: 24px; }
+.mapcontul li div span{ font-size: 16px; }
+.mapcontul li div strong{ font-size: 18px; }
+.mapcontul li small{ width: 50px; }
+.mapcont{ width: 940px; }
+/* ----------------------------------07-zhulu*/
+.zhulucount{ padding-top: 36px; padding-bottom: 36px; }
+.title.zl-tit{ padding-top: 50px; }
+.zl-tit h2 span.cn{ font-size: 26px; }
+.title.zl-tit p{ font-size: 16px; }
+.ckpj a,.zhulumbut a,.zlbanbut a{ width: 170px; height: 41px; line-height: 40px; font-size: 14px; }
+.zl-dl dd h3 a{ font-size: 18px; }
+.zl-dl dd span a{ font-size: 14px; }
+.zlswiper-but{ width: 50px; height: 50px; }
+.zlbananbut{ width: 80px; height: 80px; }
+.zlbananbut img{ width: 20px; }
+.zlbandiv h2 span{ font-size: 32px; line-height: 50px; }
+.bantxt p{
+	font-size: 32px;
+}
+/* ----------------------------------09-contact*/
+.fmsect{ padding-top: 60px; padding-bottom: 60px; }
+.fmsect .title h2{ font-size: 24px; }
+.fmform label{ font-size: 14px; }
+.fmform input, .fmform textarea, .fmform select{ font-size: 14px; }
+.fmform input, .fmform select,.fmyz a{ height: 40px; }
+.fmform label{ height: 40px; line-height: 40px; }
+.fmform div{ margin-bottom: 15px; }
+.map li div a{ height: 50px; line-height: 50px; font-size: 16px; }
+.map li div{ width: 190px; height: 50px; }
+.tandiv{ width: 580px; height: 300px; }
+.tanbut{ margin-top: 20px; margin-bottom: 20px; }
+.tanbut a { width: 175px; height: 40px; line-height: 40px; font-size: 16px; }
+.tansmldiv .tel a{ font-size: 18px; }
+.fotxfdiv h2 span.big{ font-size: 22px; }
+.fotxfdiv h2 span.sml,.fotxfdiv .tel a{ font-size: 18px; }
+.inpdiv input{ width: 200px; font-size: 14px; }
+.inpdivinp{ width: 200px; }
+.mfjtbut{ width: 100px; font-size: 14px; }
+.fotxfdiv .but span{ font-size: 14px; }
+
+.zhulimg{
+	width: 630px;
+	display: block;
+}
+}
+
+/*---------------------------------------------------------------------------------------------1439px*/
+@media screen and (max-width: 1439px){
+/*
+header*/
+.headcontact{ padding-left: 25px; padding-right: 25px; }
+.headcontact small{ margin-right: 15px; }
+.headcontact span a{ font-size: 18px; }
+.navbox{ padding-left: 90px; padding-left: 100px; }
+/*
+footer*/
+	.footer{ padding-top: 60px; padding-bottom: 60px; }
+/*
+banner*/
+.banlogo{ margin-bottom: 35px; }
+.bantxt p{ font-size: 34px; }
+.banbut a{ font-size: 16px; }
+.hmtit h2{ height: 40px; }
+.hmtit h2 span{ font-size: 40px; height: 40px; line-height: 50px; }
+.hmtit h2 small{ font-size: 14px; }
+.hmtit p{ font-size: 16px; }
+.hm1frtit h3 span{ font-size: 44px; }
+.hm1frtit h3 small{ font-size: 30px; }
+.hm1frlist li a{ font-size: 14px; line-height: 32px; }
+.hm1ul p{ font-size: 12px; height: 70px; }
+.hm1frdiv{ height: 480px; }
+.hm2dtdiv h3{ font-size: 24px; }
+.hm2dtdiv p{ font-size: 14px; }
+.hm3top li strong{ font-size: 50px; }
+.hm3top li p{ font-size: 16px; }
+.hm3bottom h2{ font-size: 26px; line-height: 50px; }
+.hm3bottom a{ width: 175px; height: 50px; line-height: 50px; }/*按钮样式*/
+.hm3bottom a{ font-size: 16px; }
+.hm4litxt h3{ font-size: 16px; }
+.hm4litxt span{ font-size: 12px; }
+.swiper-hm4sp{
+	height: 245px;
+}
+.hm4li{ height: 245px; }
+.hm4litxt{ margin-top: 75px; }
+.hm4litxt .txt{ height: 40%; }
+.hm4lismdiv p{ font-size: 14px; }
+.home3{ height: 490px; }
+.seachinp input{ font-size: 24px; height: 110px; }
+/* ----------------------------------01-fuwu*/
+.fwbox .title h2 span.en{ font-size: 46px; }
+.fwbox .title h2 span.cn{ font-size: 28px; }
+.fw1smdiv{ padding-bottom: 140px; }
+.fwbox .list{ top: 250px; }
+.fwbox .title p{ font-size: 14px; line-height: 26px; }
+.fwbox1 .list li a,.fwbox .list li a{ font-size: 14px; line-height: 26px; }
+.fwbox .but a{ width: 175px; height: 50px; line-height: 48px; font-size: 14px; }
+.mapcontul li{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.mapcontul li.bjdizhi div span:nth-child(2){
+	font-size: 14px;
+}
+	.inside-tit h2 span.en{
+		font-size: 56px;
+	}
+	.inside-tit p{
+		font-size: 30px;
+	}
+	.zlbandiv h2 span{
+		font-size: 38px;
+		line-height: 60px;
+	}
+	.bantxt p{
+		font-size: 38px;
+	}
+	#xhr_banner_2 ul li{
+		background-size: cover !important;
+	}
+.zhulimg{
+	width: 530px;
+	display: block;
+}
+}
+
+/*---------------------------------------------------------------------------------------------1365px*/
+@media screen and (max-width: 1365px){
+/*
+header*/
+/*.nav>li>a{ width: 80px; }*/
+.fotxfdiv h2 span.big{ font-size: 18px; }
+.fotxfdiv h2 span.sml, .fotxfdiv .tel a{ font-size: 14px; }
+.inpdiv input{ width: 140px; }
+.inpdivinp{ width: 140px; }
+}
+
+/*---------------------------------------------------------------------------------------------1279px*/
+@media screen and (max-width: 1279px){
+.headcontact span a{ font-size: 16px; }
+.bannerfiex,.index_banner_new,#zhul_banner{ height: 100% !important; }
+.w1560{ width: 85%; }
+.hm1frdiv{ padding-left: 40px; padding-right: 40px; }
+.hm1ulist{ padding-left: 30px; padding-right: 30px; }
+.hm1frtit h3 span{ font-size: 40px; }
+.hm1frtit h3 small{ font-size: 24px; }
+.hm1frdiv{ height: 440px; }
+.hm1frdiv{ padding-top: 30px; }
+.hm1frtit{ margin-bottom: 30px; }
+.headcontact{ display: none; }
+.hm2tit .topdiv strong{ font-size: 44px; height: 60px; line-height: 60px; }
+.topul{ text-align: center; font-size: 0; }
+.topul li{ width: 16.666%; float: initial !important; display: inline-block; vertical-align: top; }
+.hm2dl dd h3{ margin-bottom: 0; }
+.hm2dl dd h3 span,.hm2dl dd h3 small{ display: block; }
+.hm2dl dd h3 .hmgang{ display: none; }
+.hm2dl dd span{ font-size: 16px; margin-bottom: 10px; }
+.hm2dl dd p{ display: none; }
+.home2{ padding-bottom: 170px; }
+.hm2dl dd small{ font-size: 12px; }
+.hm3top li strong{ font-size: 40px; }
+.hm3top li{ margin-left: 60px; margin-right: 60px; }
+.hm3top li p{ font-size: 14px; }
+.hm3bottom{ margin-top: 60px; }
+.hm4li{ padding-left: 15px; padding-right: 15px; }
+.hm4litxt h3{ font-size: 14px; }
+.swiper-hm5{ display: none; }
+.col-1024{ width: 100%; }
+.hm5lifl p span{ font-size: 18px; line-height: 20px; }
+.hm5lifrdiv{ padding-top: 15px; }
+.hm5lifrdiv p{ line-height: 24px; }
+.hm5lifr .more,.hm5jian{ bottom: 15px; }
+.home5{ padding-top: 50px; padding-bottom: 100px; }
+.hm4tit{ margin-bottom: 40px; }
+.hm6li h2 a{ font-size: 24px; }
+.hm6li{ height: auto; padding-bottom: 60px; padding-top: 60px; }
+.hm6li h2{ margin-top: 25px; margin-bottom: 30px; }
+.hm6li .hm6but a,.hm2text .ckaaa{ font-size: 16px; width: 170px; height: 50px; line-height: 48px; }/*按钮样式*/
+.fotli:nth-child(1){ margin-bottom: 30px; }
+.fotdizhi{ margin-top: 20px; }
+.fotfenx p, .fotfenx .div{ float: initial !important; text-align: right; }
+.fotfenx p{ margin-right: 0; display: block; font-size: 14px; }
+.home1{ padding-top: 135px; padding-bottom: 100px; }
+.hm5lifrdiv{ padding-left: 20px; padding-right: 20px; }
+/* ----------------------------------02-case*/
+.container{ width: 80%; }
+.case-tit{ margin-top: 25px; }
+.inside-tit h2 span.en{ font-size: 45px; }
+.inside-tit p{ font-size: 22px; }
+.casenav{ margin-left: -15px; margin-right: -15px; }
+.casenav li{ margin-left: 15px; margin-right: 15px; }
+.case-pbldl dd{ padding-left: 15px; padding-right: 70px; }
+.case-pbldl dd{ padding-top: 15px; }
+.case-but{ right: 15px; }
+.case-pbldl dd h3 a{ font-size: 20px; }
+.case-pbldl dd p{ font-size: 14px; }
+/* ----------------------------------04-kehupj-txt*/
+.nnavlist li span{ font-size: 14px; }
+.khjingdl dt{ width: 220px; }
+.khjingdl dd, .khjinglidiv{ width: 510px; }
+.khjingdl dd{ padding-top: 20px; padding-bottom: 25px; }
+.jlphoto small{ width: 80px; height: 80px; }
+.jlbut a{ font-size: 16px; width: 150px; height: 50px; line-height: 48px; }
+.jlname h4 span, .jlname h4 strong{ font-size: 16px; }
+.jlname p{ font-size: 12px; }
+.khjingli{ padding-top: 15px; padding-bottom: 15px; }
+.khjingsmdiv1{ margin-bottom: 25px; }
+.jlload{ padding-top: 50px; padding-bottom: 50px; }
+.jlload a strong{ font-size: 16px; }
+/* ----------------------------------06-zhishixx*/
+.zhisdl{ padding-left: 15px; padding-right: 15px; padding-top: 15px; padding-bottom: 20px; }
+.zhisdl .title{ margin-top: 20px; margin-bottom: 15px; }
+.zhisdl .title h3 a{ line-height: 24px; }
+.zhisdl .flei small{ top: 5px; }
+.zhisdl .flei small img{ width: 20px; }
+/* ----------------------------------08-newlist*/
+.newli dl .tit h3 a{ font-size: 20px; }
+.newli dl .month{ margin-right: 10px; font-size: 22px; }
+.newli dl .tit h3{ margin-top: 10px; }
+.mntitle h2{ font-size: 35px; }
+.mntitle span{ font-size: 24px; }
+.mntitle{ margin-top: 50px; }
+/* ----------------------------------10-text*/
+.alltext .title h1 {
+    font-size: 28px;
+    line-height: 35px;
+}
+/* ----------------------------------11-join*/
+.joinlitit span{ margin-right: 210px; }
+/* ----------------------------------07-zhulu*/
+.zhululogo li{ width: 19.999%; }
+.zlbandiv h2 span{ font-size: 40px; line-height: 70px; }
+.bantxt p{
+	font-size: 40px;
+}
+.zlbanbut a{ width: 210px; height: 64px; line-height: 62px; font-size: 22px; }
+.fmform label{ width: 100%; text-align: left; height: 30px; line-height: 30px; }
+.fmform div{ margin-bottom: 10px; }
+.fmform input, .fmform textarea, .fmform select{ width: 100%; font-size: 12px; }
+.fmdiv{ padding-left: 0; }
+.fmsect{ padding-top: 40px; padding-bottom: 40px; }
+.maplist{ width: 15%; }
+.mapcont{ width: 85%; }
+.mapcontul li{ margin-bottom: 5px; margin-top: 5px; }
+.mapcontul li small{ width: 40px; }
+.mapcontul li div span{ font-size: 14px; }
+.mapcontul li div span, .mapcontul li div strong{ line-height: 20px; }
+.fmform .fmbut input{ width: 140px; height: 40px; }
+.tandiv{ width: 500px; height: 260px; }
+.tantext h2{ font-size: 24px; line-height: 36px; }
+.tanxx img{ width: 20px; }
+.xful li{ width: 50px; height: 50px; }
+.fotxfdiv h2 span.big{ font-size: 14px; }
+.fotxfdiv h2 span.sml, .fotxfdiv .tel a{ font-size: 12px; }
+.mfjtbut,.fotxfdiv .but a{ width: 80px; }
+.fotxfdiv .but a small img{ width: 12px; }
+.inpdiv input,.mfjtbut,.fotxfdiv .but span{ font-size: 12px; }
+.mapcontul li{ width: 30%; padding-left: 15px; padding-right: 15px; }
+.mapcontul li:nth-child(3){ width: 40%; }
+.contfm{ width: 100%; }
+.fmright .tit h2 span{ font-size: 30px; }
+.mapcont,.maplist,.mapcontul{ /* height: 150px;  */}
+.mapul{ bottom: -75px; }
+.zlbandiv h2 span{ font-size: 34px; line-height: 54px; }
+.bantxt p{
+	font-size: 34px;
+}
+.zlbanbut{ margin-top: 40px; }
+.zlbanbut a { width: 190px; height: 48px; line-height: 46px; font-size: 20px; }
+.fwbox1 .but a.but2{ background-color: #fff; color: #206231; }
+	.mapcont, .maplist, .mapcontul{
+		height: 170px;
+	}
+	.mapul{
+		bottom: -85px;
+	}
+}
+
+/*---------------------------------------------------------------------------------------------1024px*/
+@media screen and (max-width: 1023px){
+body{ padding-top: 50px !important; }
+.banner-casetxt{
+	margin-top: -50px !important;
+}
+.fowmm{
+	margin-top: 50px;
+}
+.xful{
+	height: 155px;
+	top: auto;
+	bottom: 50px;
+}
+.xful li{
+	width: 42px;
+	height: 42px;
+}
+.iph{ display: block !important; }
+.pc{ display: none !important; }
+.w1560{ width: 90%; }
+.hm1tit{ margin-top: 0; margin-bottom: 30px; width: 100%; }
+.hm1frdiv{ height: 375px; }
+.home1{ padding-top: 60px; padding-bottom: 100px; }
+.hm1slider small.item3sml{ bottom: -70px; }
+.hm2tit .topdiv strong{ font-size: 34px; }
+.topdiv{ margin-bottom: 20px; }
+.topul{ display: none; }
+.hm2dl{ margin-bottom: 30px; }
+.hm2dl dd{ padding-top: 20px; padding-bottom: 20px; }
+.hm2dl dd span{ margin-bottom: 20px; }
+.hm3top{ padding-left: 50px; padding-right: 50px; height: 220px; top: -110px; }
+.hm5li{ padding-top: 30px; padding-bottom: 30px; }
+.hm6li h2 a{ font-size: 20px; }
+.hm6li{ padding-top: 45px; padding-bottom: 40px; }
+.header{ padding-top: 0; padding-left: 0; padding-right: 0; }
+.logo{ float: initial !important; display: inline-block; padding-right: 0; }
+.navbox{ position: absolute; top: 70px; left: 0; width: 100%; background-color: rgba(255,255,255,.9); transition: all 0.5s ease 0s; -webkit-transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s; }
+.nav{ display: none; }
+.seach{ left: 0; right: auto; width: 90px; }
+.head-container{ background-color: rgba(255,255,255,1); text-align: center; }
+.seachbut a{ background: url(../images/seachiph.png) no-repeat center center; background-size: auto 50%; }
+.logo:after{ display: none; }
+.navToggle{ display: block; position: absolute; top: 0; right: 20px; bottom: 0; margin: auto; }
+/* ----------------------------------01-fuwu*/
+.fwbox{ overflow: hidden; }
+.fwbox .list{ top: 280px; }
+.fw4img{ right: -100px; }
+.fw4img dd{ height: 58%; }
+.fwbg{ height: 50%; width: 96%; left: 2%; top: 100px; padding: 0; }
+.fwbox .container{ height: 50%; margin-top: 100px; }
+.fwbox .title{ margin-bottom: 0; }
+.fwbox .title h2 span.en{ font-size: 32px; }
+.fwbox .title h2 span.cn{ font-size: 40px; }
+.fwbox .title p{ display: none; }
+.fwbox .list{ position: relative; top: 0; left: 0; }
+.fwbox1 .list li a,.fwbox .list li a{ font-size: 22px; line-height: 46px; }
+.fw1smdiv{ padding-bottom: 80px; }
+.fw4img{ right: -95px; height: 58%; }
+/* ----------------------------------02-case*/
+.container{ width: 85%; }
+.casenav li a{ height: 34px; line-height: 34px; }
+.casenav{ margin-top: 30px; }
+.case-pblddiv h3{ font-size: 22px; }
+.case-pblddiv div span{ font-size: 14px; }
+/* ----------------------------------04-kehupj-txt*/
+.nnavlist li{ height: 80px; }
+.khjingdl dt{ position: relative; top: 0; left: 0; float: left; }
+.khjingdl dt{ width: 190px; }
+.khjingdl dd{ width: 400px; }
+.khjinglidiv{ width: 100%; }
+.khjingdl{ margin-bottom: 50px; }
+/* ----------------------------------10-text*/
+.alltext .title{ margin-bottom: 40px; }
+/* ----------------------------------11-join*/
+.joinlitit span{ margin-right: 110px; }
+.joinlitit i{ width: 15px; }
+.zhulucount ul li{ margin-left: 20px; margin-right: 20px; }
+.zhulucount ul li span{ font-size: 44px; line-height: 32px; }
+.zhulucount ul li span{ font-size: 36px; line-height: 30px; }
+.title.zl-tit{ padding-top: 20px; }
+.zl-tit h2 span.en{ font-size: 32px; }
+.zl-tit h2 span.cn{ font-size: 20px; }
+.title.zl-tit p{ font-size: 14px; }
+.zhulubig p.pbig{ font-size: 36px; }
+.zhulubig p{ font-size: 22px; }
+.zhulusml p{ font-size: 14px; line-height: 26px; }
+.zhulumtxt{ padding-bottom: 60px; }
+.zhulubglist div{ top: 160px; left: 195px; }
+.zhltit h2{ font-size: 34px; }
+.zhltit p{ font-size: 26px; }
+.zhulubg1 .title{ height: 180px; }
+.zhulubglist li{ margin-right: 0px; transform: scale(0.65); -webkit-transform: scale(0.65); -moz-transform: scale(0.65); -o-transform: scale(0.65); }
+.zhulubglist div{ top: 110px; }
+.zhulumlg{ background-size: auto 100%; background-position: 0 !important }
+.zlbandiv h2 span{ font-size: 30px; line-height: 50px; letter-spacing: 2px; }
+.bantxt p{
+	font-size: 30px;
+}
+.zhulumtxt{
+	padding-top: 35px;
+}
+.fmright{ margin-top: 80px; }
+.mapul{ position: relative; top: 0; }
+.mapcont{ padding-left: 35px; }
+.mapcontul li small{ width: 36px; }
+.mapcontul li{ margin-top: 8px; margin-bottom: 8px; }
+.mapcontul li{ padding-right: 50px; }
+.fmright{ margin-top: 60px; }
+.zlbandiv h2 span{ font-size: 24px; line-height: 38px; }
+.bantxt p{
+	font-size: 24px;
+}
+.zlbanbut{ margin-top: 30px; }
+.zlbanbut a{ width: 170px; font-size: 16px; height: 45px; line-height: 43px; }
+.tandiv{ width: 430px; height: 225px; }
+.tantext h2{ font-size: 22px; line-height: 30px; }
+.tanbut{ margin-bottom: 10px; }
+.tanbut a{ width: 150px; height: 35px; line-height: 35px; font-size: 14px; }
+.tansmldiv .tel a{ font-size: 16px; }
+.mapdivcont{ width: 100%; }
+.mapcontul li{ padding-right: 0; }
+.mapul{ width: 100%; }
+.mapcont{ padding-left: 0; }
+.fmright{ margin-top: 0; }
+.zhishipbl .container{ padding-left: 5px; padding-right: 5px; }
+.map li{ overflow: hidden; }
+.map img{ width: 100%; height: auto; }
+.map li div a{ margin-top: 0; }
+.hm3top li{ margin-left: 45px; margin-right: 45px; }
+	.inside-tit h2 span.en{
+		font-size: 60px;
+	}
+	.inside-tit p{
+		font-size: 28px;
+		letter-spacing: 2px;
+	}
+	.case-tit{
+		margin-top: 0;
+	}
+	.zlbandiv h2 span{
+		font-size: 28px;
+		line-height: 42px;
+	}
+	.bantxt p{
+		font-size: 28px;
+	}
+
+.zhulimg{
+	width: 490px;
+	display: block;
+}
+}
+
+/*---------------------------------------------------------------------------------------------767px*/
+@media screen and (max-width: 767px){
+.w1560{ width: 100%; }
+.banlogo small img{ width: 110px; }
+.banlogo{ margin-bottom: 15px; }
+.bantxt p{ margin-bottom: 30px; font-size: 26px; }
+.bantxt p{ font-size: 24px; letter-spacing: 5px; }
+.banbut a{ font-size: 14px; }
+.hmtit h2{ margin-top: 0; }
+.hmtit p{ font-size: 14px; }
+.hm1flbox{ height: 272px; }
+.banner,.hm1fldiv{ overflow: hidden; }
+.hm1frdiv{ padding-left: 30px; padding-right: 30px; height: auto; padding-bottom: 20px; }
+.hm1ulist{ display: none; }
+.hm1frtit h3 span{ font-size: 34px; margin-bottom: 5px; }
+.hm1frtit h3 small{ font-size: 20px; }
+.hm1frlist li a{ font-size: 12px; line-height: 22px; }
+
+.hm1fldiv .item.slick-slide{ padding-top: 0; }
+.hm1tit{ margin-bottom: -10px; }
+.home1,.home2,.home4,.home5{ padding-top: 50px; padding-bottom: 50px; }
+.home6 .w1560{ margin-top: 50px; margin-bottom: 50px; }
+.home2{ padding-bottom: 150px; }
+.hm2tit .topdiv .titen{ font-size: 16px; letter-spacing: 12px; }
+.hm2tit .topdiv .titcn{ font-size: 12px; }
+.hm2tit .topdiv strong{ font-size: 20px; letter-spacing: 0; height: 20px; line-height: 20px; }
+.home2 .row{ margin-left: -5px; margin-right: -5px; }
+.home2 .col-md-3,.home2 .col-md-6, .home2 .col-md-12{ padding-left: 5px; padding-right: 5px; }
+.hm2dl{ margin-bottom: 10px; }
+.hm2dl dd span{ margin-bottom: 5px; }
+.hm2dl dd{ padding: 10px; }
+.hm2dl dd span{ font-size: 14px; }
+.hm2jian{ bottom: 12px; right: 10px; }
+.hm3top{ height: 150px; top: -75px; }
+.hm3top ul{ margin-bottom: 0; }
+.hm3top li span,.hm3top li p{ font-size: 12px; }
+.hm3top li strong{ font-size: 26px; }
+.hm3top{ padding-left: 0; padding-right: 0; }
+.hm3top li{ margin-left: 40px; margin-right: 40px; margin-bottom: 5px; margin-top: 5px; }
+.hm3bottom h2{ font-size: 18px; line-height: 34px; letter-spacing: 0; }
+.home3{ height: 270px; padding-bottom: 40px; }
+.hm3but{ margin-top: 25px; }
+.hm3bottom{ margin-top: 90px; }
+.hm3bottom a{ width: 122px; height: 32px; line-height: 30px; margin-left: 10px; margin-right: 10px; font-size: 12px; }/*按钮样式*/
+.hm4li{ height: 140px; padding-top: 15px; padding-left: 10px; padding-right: 10px; }
+.swiper-hm4sp{
+	height: 140px;
+}
+.hm4-slide{ padding-left: 5px; padding-right: 5px; }
+.hm4logo{ height: auto; line-height: 0; }
+.hm4logo a img{ width: 50px; }
+.hm4litxt{ margin-top: 40px; }
+.hm4litxt h3{ margin-bottom: 0; }
+.hm4litxt h3{ display: block; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; }
+.hm4lismdiv{ padding-left: 10px; padding-right: 10px; }
+.hm4litxt .txt{ display: none; }
+.hm5li{ margin-top: 10px; margin-bottom: 10px; }
+.hm5lifrdiv p{ font-size: 14px; line-height: 22px; }
+.hm5lifrdiv{ padding-left: 5px; padding-right: 10px; }
+.hm5lifr .more{ left: 5px; }
+.hmjian a i img{ width: 18px; }
+.hm5jian{ bottom: 20px; }
+.hm5lifr .more a{ font-size: 16px; }
+.hm5nrow .col-md-6:nth-child(3){ display: block; }
+.hm6li{ width: 100%; padding-top: 40px; padding-bottom: 30px; }
+.hm6li1:after,.hm6li2:after{ width: 70px; background-size: 100%; }
+.hm6li h2{ margin-top: 0; }
+.hm6li h2 a{ font-size: 20px; }
+.hm6li .hm6but a,.hm2text .ckaaa{ width: 100px; height: 32px; line-height: 30px; font-size: 12px; }
+.hm6li1{ margin-bottom: 25px; }
+.fotli:nth-child(2),.fotli:nth-child(3){ display: none; }
+.fotfrtop{ padding-top: 10px; padding-bottom: 10px; }
+.fotli:nth-child(1){ margin-bottom: 20px; }
+.fotdizhi{ margin-top: 15px; }
+.footer{ padding-top: 20px; padding-bottom: 20px; }
+.fotfrbotm{ text-align: center; }
+.fotdizhi strong, .fotdizhi p{ line-height: 22px; }
+.fotdizhi strong{ font-size: 16px; }
+.head-container{ padding-top: 5px; padding-bottom: 5px; }
+/* ----------------------------------01-fuwu*/
+.fwbg,.fwbox .container{ height: 45%; }
+.fw1smdiv{ padding-right: 0; margin-left: 0; padding-bottom: 70px; }
+.fwbox .title h2 span.en{ font-size: 20px; }
+.fwbox .title h2 span.cn{ font-size: 24px; }
+.fwbox .title h2{ padding-bottom: 20px; margin-bottom: 10px; }
+.fwbox1 .list li a,.fwbox .list li a{ font-size: 14px; line-height: 28px; }
+.fwbox .list{ padding-right: 0; }
+.fwbox .but a{ width: 122px; height: 32px; line-height: 30px; margin-left: 10px; margin-right: 10px; font-size: 12px; }
+.fw4img{ height: 50%; right: -55px; }
+.fw4img dd{ width: 115px; }
+.fw4ddiv .slick-list{ height: 155px; }
+.fw4ddiv .slick-list li{ margin-top: 5px; margin-bottom: 5px; }
+.fw4ddiv .slick-dots li{ margin-left: 5px; margin-right: 5px; }
+.fw4ddiv .slick-dots li button{ width: 5px; height: 5px; }
+/* ----------------------------------02-case*/
+.casediv{ overflow: hidden; }
+.container{ width: 100%; }
+.case-tit{ margin-top: 0; }
+.inside-tit h2{ margin-top: 0; }
+.inside-tit h2 span.en{ font-size: 36px; letter-spacing: 2px; }
+.inside-tit p{  font-size: 14px; }
+.casenav{ margin-top: 15px; margin-bottom: 15px; margin-left: -10px; margin-right: -10px; }
+.casenav li a{ height: 26px; line-height: 26px; font-size: 13px; }
+.casenav li{ margin-left: 10px; margin-right: 10px; }
+.casepbl{ margin-right: -20px; }
+.case-pbldl dd h3 a{ font-size: 18px; }
+.case-pbldl dd p{ font-size: 12px; }
+.case-pbldl dd h3{ margin-top: 0; }
+.case-pbldl dd p{ margin-bottom: 0; }
+/* ----------------------------------03-case-text*/
+.caseban-txt h1{ font-size: 24px; }
+.caseban-txt div p{ font-size: 13px; line-height: 20px; }
+.shuom img{ max-width: 80%; }
+.shuom h2{ font-size: 30px; }
+.like small{ width: 65px; height: 65px; line-height: 65px; }
+.like small img{ width: 30px; }
+.like-sp span{ font-size: 14px; }
+.like{ margin-top: 50px; margin-bottom: 50px; }
+/* ----------------------------------04-kehupj-txt*/
+.nnavlist li small img{ height: 20px; }
+.nnavlist li span{ font-size: 12px; }
+.nnavlist li{ height: 75px; }
+.khjingdl dt{ width: 140px; }
+.khjingdl dd{ width: 175px; padding-top: 0; padding-bottom: 0; }
+.khjingtit h3 a{ font-size: 16px; }
+.tmspan{ display: none; }
+.khjingsmdiv2 p{ font-size: 12px; line-height: 20px; }
+.khjingsmdiv1{ margin-bottom: 5px; }
+.khjingsmdiv2 p{ height: 155px; overflow: hidden; }
+.khjingdl{ margin-bottom: 25px; position: relative; }
+.khjingdl dd{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 50px;
+	right: 0;
+}
+.serve .title p{
+	font-size: 18px;
+	width: 65%;
+}
+.khjingtit h3 a {
+    font-size: 20px;
+    line-height: 30px;
+}
+.kjlist{ padding-top: 0; }
+.jlphoto small{ width: 50px; height: 50px; }
+.jlphoto{ margin-right: 10px; }
+.jlname h4 span, .jlname h4 strong{ font-size: 14px; line-height: 18px; }
+.jlname h4{ margin-top: 0; }
+.jlname p{ margin-bottom: 0; }
+.jlbut{ height: 32px; }
+.jlbut a{ width: 107px; height: 32px; line-height: 30px; }
+.jlbut a small img{ width: 15px; }
+.jlbut a span{ font-size: 12px; margin-left: 5px; }
+.jlload{ padding-top: 20px; padding-bottom: 20px; }
+.jlload a strong{ font-size: 14px; margin-top: 10px; }
+.jlload a span{ font-size: 12px; }
+/* ----------------------------------05-fuwuqy*/
+.serve{ padding-top: 30px; padding-bottom: 30px; }
+.serve .title h3{ font-size: 20px; letter-spacing: 1px; }
+.servebut a{ width: 120px; height: 28px; line-height: 26px; }
+/* ----------------------------------08-newlist*/
+.newli dl .tit h3 a{ font-size: 15px; display: block; margin-top: 5px; line-height: 24px; letter-spacing: 0; }
+.newli dl .month{ font-size: 16px; }
+.mntitle{ margin-top: 30px; margin-bottom: 30px; }
+.mntitle h2{ font-size: 28px; }
+.mntitle span{ font-size: 20px; }
+/* ----------------------------------10-text*/
+.alltext .title h1{ margin-bottom: 15px; }
+.alltext .title div{ height: 35px; line-height: 35px; }
+.alltext .title span{ font-size: 12px; margin-left: 10px; margin-right: 10px; }
+.alltext .title span:nth-child(3){ display: none; }
+.alltext .title{ margin-bottom: 30px; margin-top: 30px; }
+.alltext .text p{ font-size: 13px; line-height: 22px; }
+/* ----------------------------------11-join*/
+.title.mntitle p{ font-size: 13px; line-height: 22px; }
+.title.mntitle p{ margin-top: 10px; }
+.joinlitit,.joinlitxt{ padding-left: 15px; padding-right: 15px; }
+.joinlitit h3{ font-size: 16px; }
+.joinlitit i{ width: 12px; right: 15px; }
+.joinlitit span{ margin-right: 60px; }
+.joinlitit{ height: 55px; }
+.joinlitit h3, .joinlitit span{ height: 55px; line-height: 55px; }
+.joinlitxt{ padding-top: 15px; padding-bottom: 15px; }
+.joinlitxt p{ font-size: 13px; line-height: 20px; }
+/* ----------------------------------09-contact*/
+.mapcontul li div span, .mapcontul li div strong{ line-height: 16px; }
+.mapcontul li div span,.mapcontul li div strong{ font-size: 12px; }
+.mapcontul li{ margin-top: 5px; margin-bottom: 5px; }
+.maplist li{ font-size: 16px; }
+.fmsect .title h2{ font-size: 20px; }
+.fmsect{ padding-top: 20px; }
+.fmright{ margin-top: 40px; }
+/* ----------------------------------07-zhulu*/
+.zlbanbut{ margin-top: 25px; }
+.zlbanbut a{ font-size: 18px; height: 48px; line-height: 47px; width: 120px; font-size: 14px; height: 38px; line-height: 37px; }
+.zhulucount{ padding-top: 20px; padding-bottom: 20px; }
+.zhulucount ul li{ margin-top: 5px; margin-bottom: 5px; }
+.zhulucount ul li span{ font-size: 32px; }
+.zhulucount ul li small{ font-size: 12px; }
+.title.zl-tit{ padding-left: 30px; padding-right: 30px; }
+.zl1-txt{ padding-top: 50px; padding-bottom: 45px; }
+.zl-tit h2 span.cn{ font-size: 24px; }
+.zl-tit h2 span.en{ font-size: 24px; }
+.zhululogo li{ width: 25%; }
+.zhulubig p.pbig{ font-size: 26px; }
+.zhulubig p{ font-size: 16px; }
+.zhulusml p{ font-size: 12px; line-height: 22px; }
+.zhulusml{ padding-left: 25px; padding-right: 25px; margin-bottom: 40px; }
+.zhulubgdiv{ padding-top: 20px; padding-bottom: 20px; }
+.zhulubglist{ position: relative; top: 0; left: 0; width: auto; height: auto; }
+.zhulubglist div{ top: 0; left: 0; }
+.zhulubglist li{ transform: scale(1); -webkit-transform: scale(1); -moz-transform: scale(1); }
+.zhulucount ul{ margin-left: 0; margin-right: 0; }
+.zhltit h2{ font-size: 20px; }
+.zhltit p{ font-size: 18px; }
+.zhulubg1 .title{ height: auto; display: inline-block; }
+.zhulubglist{ width: 75%; }
+.zhulubglist li{ padding-left: 15px; padding-right: 15px; width: 33.333%; }
+.zhulubglist li img{ width: 100%; }
+.zlbanbut{ margin-top: 15px; }
+.tandiv { width: 370px; height: 190px; }
+.tandiv_div{ padding: 10px; }
+.tantext h2 { font-size: 18px; line-height: 26px; }
+.tanbut a { width: 120px; height: 30px; line-height: 30px; font-size: 12px; }
+.tansmldiv .tel a{ font-size: 14px; }
+.tanbut{ margin-bottom: 5px; }
+.tanxx img{ width: 15px; }
+.mapcontul li{ width: 100% !important; border-right: 0; }
+.mapcontul li.bjdizhi div span:nth-child(2){
+	font-size: 12px;
+	line-height: 16px;
+}
+.mapcontul li{
+	text-align: left;
+}
+.mapcontul li small,.mapcontul li div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.mapcontul li div span:nth-child(2){
+	margin-top: 0;
+}
+.mapcontul li small{
+	width: 30px;
+}
+.mapcontul li div{ margin-top: 0; width: 80%; }
+.contfm form{ margin: 0; }
+.fminpdiv{ padding: 0 15px; }
+.hm2text .ckaaa{
+	margin-top: 30px;
+}
+.hm3top li{ margin-left: 25px; margin-right: 25px; }
+	.inside-tit h2 span.en{
+		font-size: 45px;
+	}
+	.inside-tit p{
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+	.mapcontul li div span{
+		height: auto;
+		line-height: 20px;
+	}
+	.zlbandiv h2 span{
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.bantxt p{
+		font-size: 18px;
+	}
+	.fwbox .container{
+		margin-top: 0;
+	}
+	.fwbg{
+		top: 0;
+		width: 100%;
+		left: 0;
+	}
+	.fwbox2 .but a.but2{
+		border-color: #fff;
+		background-color: #fff;
+		color: #206231;
+	}
+	.fwbox1 .but a.but2{
+		border-color: #fff;
+	}
+	.zl1-txtdiv{
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+}
+/*---------------------------------------------------------------------------------------------480px*/
+@media screen and (max-width: 580px){
+.fotop{ margin-bottom: 30px; }
+.hm1fldiv:after{ height: 155px; }
+.header{ border-bottom: solid 1px #dedede; }
+.seach,.seachbut a{ width: 55px; }
+.navToggle .icon,.navToggle .icon:after, .navToggle .icon:before{ height: 1px; }
+.hmtit h2 span{ letter-spacing: 2px; line-height: 55px; }
+.hmtit p{ letter-spacing: 1px; }
+.home1,.home4,.home5{ padding-top: 20px; padding-bottom: 25px; }
+.hm1frtit h3 span{ font-size: 30px; margin-bottom: 0; }
+.hm1frtit{ margin-bottom: 25px; }
+.home2{ padding-bottom: 110px; padding-top: 30px; }
+.hm3bottom h2{ font-size: 17px; letter-spacing: 2px; line-height: 30px; }
+.hm4tit{ margin-bottom: 20px; }
+.hm5li{ height: 120px; margin-bottom: 0; }
+.hm5li{ padding-top: 20px; padding-bottom: 20px; }
+.hm5lifrdiv p{ font-size: 13px; }
+.hm5jian{ right: 20px; }
+.hm5lifr .more a{ font-size: 14px; }
+.hm5lifl p span{ font-size: 16px; line-height: 16px; }
+.hm5li .timesg i img{ width: 13px; }
+.home5{ padding-bottom: 50px; }
+.hm6li1{ margin-bottom: 40px; }
+.hm6li h2 a{ font-size: 18px; letter-spacing: 2px; }
+.hm6li{ padding-top: 30px; }
+.hm6li h2{ margin-bottom: 15px; }
+.hm6li1 .hm6but a:before,.hm2text .ckaaa{ border: solid 1px #d2d2d2; border-radius: 3px; }
+.hm6li .hm6but a,.hm2text .ckaaa{ width: 130px; height: 40px; line-height: 40px; font-size: 15px; }
+.hm6li2 .hm6but a:before{ border: solid 1px #a1c3aa; }
+.home6 .w1560{ margin-bottom: 35px; }
+.fotli h2{ font-size: 14px; }
+.fotdizhi strong{ font-size: 16px; letter-spacing: 1px; }
+.fotdizhi strong, .fotdizhi p{ line-height: 16px; }
+.fotdizhi p{ font-size: 13px; }
+.fotdizhi small{ margin-right: 10px; }
+.fotdizhi small img{ width: 14px; }
+.fotli h2{ margin: 0; }
+.fotli:nth-child(1){ margin-bottom: 0; }
+.footer{ padding-top: 25px; }
+.fotop{ margin-bottom: 25px; }
+.fotfenx p{ font-size: 12px; }
+.fotfrbotm p{ line-height: 20px; }
+.hmmore{ position: relative; }
+.hmmore span{ font-size: 13px; margin-right: 5px; }
+.hmmore small img{ width: 15px; }
+.hm5nrow{ margin-top: -5px; }
+.hmmore{ margin-bottom: 20px; }
+.hmtit h2 span{ font-size: 28px; }
+.hm3top li{ margin-right: 5px; margin-left: 5px; }
+/* ----------------------------------03-case*/
+.inside-tit h2 span.en{ font-size: 16px; }
+.case-tit{ margin-top: 20px; }
+.inside-tit p{ font-size: 15px; }
+.case-but{ width: 40px; height: 40px; line-height: 40px; }
+.case-but small img{ width: 18px; }
+.jlload a small img{ width: 12px; }
+.jlload a span{ font-size: 13px; letter-spacing: 1px; }
+.hm6li1 i:after,.hm6li1 em:after,.hm6li2 i:after,.hm6li2 em:after{ background-size: 50% auto; }
+.hm6li1 i,.hm6li2 em{ right: 10px; }
+.hm6li1 em,.hm6li2 i{ left: 10px; }
+.nnavlist li{ height: 65px; }
+.nnavlist li small img{ height: 16px; }
+.nnavlist li small{ margin-bottom: 5px; }
+.jlname h4 span, .jlname h4 strong{ font-size: 15px; }
+.listdiv{ margin-top: 30px; }
+.khjingdl dt{ box-shadow: 5px 5px 15px 1px rgba(0,0,0,.1); }
+.serve .title h3{ font-size: 14px; letter-spacing: 2px; }
+.fwmore a{ font-size: 12px; background-size: 12px !important; padding-right: 20px; }
+.servebut a{ border-radius: 1px; }
+.serveul li{ padding-left: 3px; padding-right: 3px; margin-bottom: 6px; }
+.serveul>div{ margin-right: -3px; margin-bottom: -3px; }
+.serve .title{ margin-bottom: 15px; }
+#zhishipbl{ margin-top: 25px; }
+.zhisdl{ padding-left: 10px; padding-right: 10px; padding-bottom: 30px; }
+.zhisdl .txt p span, .zhisdl .txt p small{ display: none; }
+.zhisdl .txt p span:nth-child(1){ display: block; }
+.zhisdl .flei small img{ width: 15px; }
+.zhisdl .flei span{ margin-top: 5px; }
+.zhisdl .title h3{ line-height: 0; }
+.zhisdl .title{ margin-top: 10px; }
+.zhisdl .txt p{ margin-bottom: 10px; }
+.zhululast{ padding-bottom: 50px; }
+.tandiv{ width: 285px; height: 150px; }
+.tantext h2{ font-size: 13px; line-height: 18px; }
+.tanbut a{ width: 95px; height: 24px; line-height: 24px; }
+.tansmldiv .tel a{ font-size: 12px; letter-spacing: 1px; }
+.tansmldiv .tel a:after, .tansmldiv .tel a:before{ width: 25px; }
+.tansmldiv .tel a:after{ left: -35px; }
+.tansmldiv .tel a:before{ right: -35px; }
+.tanbut{ margin-top: 10px; }
+.tanxx img{ width: 10px; }
+.fmright{ margin-top: 10px; }
+.fmright .tit{ line-height: 30px; }
+.fmright .tit h2 span{
+	display: block;
+	 font-size: 24px; line-height: 32px; margin: 0;
+}
+.fmright .tit p{ font-size: 14px; }
+.fminpdiv{ margin-bottom: 10px; }
+.contfm input, .contfm select{ height: 40px; }
+.contfm input, .contfm select, .fminpdiv textarea{ font-size: 14px; }
+.fminpdiv textarea{ height: 100px; }
+.nnavlist li.active{ background-color: #fff; }
+.telseach .seachfm{ padding: 0; }
+.jlname{ max-width: 150px; }
+.jlname p{ /* text-overflow: ellipsis; overflow: hidden; white-space: nowrap;  */}
+.hm3top{ height: 130px; top: -65px; }
+.fotxfdiv{ display: none; }
+.fotdizhi strong{ color: #fff; }
+.contfm .fmdiv{ width: 290px; }
+.contfm .fmyz input{ width: 160px; }
+.contfm .fmyz a{ width: 120px; overflow: hidden; }
+.contfm .fmyz a img{  width: 100%; }
+.inside-tit h2 span.en{
+	font-size: 32px;
+}
+.inside-tit p{
+	font-size: 17px;
+}
+.case-tit{
+	margin-top: 5px;
+}
+.casemm-tit{
+	margin-top: 25px;
+}
+.hm1frtit h3 small{
+	font-weight: 400;
+}
+
+.blbox img{
+	width: 250px !important;
+}
+.blbox{
+	top: 30px;
+}
+.zhulubg1 .title{
+	top: 50px;
+}
+.zlswiperdiv{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.contfm input, .contfm select, .fminpdiv textarea{
+	font-size: 12px;
+}
+/*.banner-casetxt{
+	height: auto !important;
+}*/
+/*.caseban-img{
+	height: 275px !important;
+}*/
+.caseban-img,
+.caseban-txt{
+	position: relative;
+}
+.caseban-txt h1,
+.caseban-txt div p{
+	color: #333;
+}
+.caseban-txt{
+	padding-bottom: 30px;
+}
+.fotteldivs{
+	width: 90%;
+}
+.zhulimg{
+	width: 300px;
+	display: block;
+}
+}
+@media screen and (max-width: 410px){
+	.hm1tit {
+	    margin-bottom: -40px;
+	}
+}

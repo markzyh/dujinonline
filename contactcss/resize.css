@@ -1,0 +1,62 @@
+﻿
+@media only screen and (max-height: 900px) {
+    .aboutpage .aboutblock01 .blockarrow,
+    .servicepage .serviceblock01 .blockarrow{margin-top:29%;}
+    .aboutpage .aboutblock01,
+    .servicepage .serviceblock01{margin-top:-700px;}
+    .aboutpage .aboutbanner .bannertext h2,
+    .servicepage .servicebanner .bannertext h2,
+    .contactbanner .bannertext h2{margin-top:160px;}
+    .aboutpage .aboutbanner .bannertext,
+    .servicepage .servicebanner .bannertext,
+    .contactbanner .bannertext{top:0;}
+    .aboutpage .numberbox{top:42%;}
+    .aboutpage .aboutblock02 .blockarrow,
+    .servicepage .serviceblock02 .blockarrow{margin-top:19%;}
+    .aboutpage .aboutblock02,
+    .servicepage .serviceblock02{margin-top:-700px;}
+    .aboutpage .aboutblock01,.servicepage .serviceblock01{height:1679px;}
+    .aboutpage .aboutblock02 .blockinner{margin-top:31%;}
+    .servicepage .serviceblock02 .blockinner{margin-top:30%;}
+    .aboutpage .aboutblock03,.servicepage .serviceblock03{margin-top:-66%;}
+    .aboutpage .aboutblock03 .blockarrow,
+    .servicepage .serviceblock03 .blockarrow{margin-top:26%;}
+    .aboutpage .aboutblock01 .blockinner{margin-top:40%}
+    .aboutpage .aboutblock03 .blockinner{margin-top:37%;}
+    .aboutpage .button,.servicepage .button{margin-top:-26%;}
+    .servicepage .serviceblock03 .blockinner{margin-top:610px;}
+    .servicepage .serviceblock04 .blockinner{margin-top:550px;}
+    .servicepage .serviceblock04 .blockarrow{margin-top:24%;}
+    .servicepage .serviceblock05 .blockarrow{margin-top:22.5%;}
+}
+
+@media only screen and (max-height: 700px) {
+    .aboutpage .aboutblock01 .blockarrow,
+    .servicepage .serviceblock01 .blockarrow{margin-top:228px;}
+    .aboutpage .aboutblock01,
+    .servicepage .serviceblock01{margin-top:-700px;}
+    .aboutpage .aboutbanner .bannertext h2,
+    .servicepage .servicebanner .bannertext h2,
+    .contactbanner .bannertext h2{margin-top:160px;}
+    .aboutpage .aboutbanner .bannertext,
+    .servicepage .servicebanner .bannertext,
+    .contactbanner .bannertext{top:0;}
+    .aboutpage .numberbox{top:42%;}
+    .aboutpage .aboutblock02 .blockarrow,
+    .servicepage .serviceblock02 .blockarrow{margin-top:120px;}
+    .aboutpage .aboutblock02,
+    .servicepage .serviceblock02{margin-top:-700px;}
+    .aboutpage .aboutblock01,.servicepage .serviceblock01{height:1679px;}
+    .aboutpage .aboutblock02 .blockinner,
+    .servicepage .serviceblock02 .blockinner{margin-top:485px;}
+    .aboutpage .aboutblock03,.servicepage .serviceblock03{margin-top:-916px;}
+    .aboutpage .aboutblock03 .blockarrow,
+    .servicepage .serviceblock03 .blockarrow{margin-top:235px;}
+    .aboutpage .aboutblock01 .blockinner{margin-top:580px;}
+    .aboutpage .aboutblock03 .blockinner{margin-top:590px;}
+    .aboutpage .button,.servicepage .button{margin-top:-418px;}
+    .servicepage .serviceblock03 .blockinner{margin-top:610px;}
+    .servicepage .serviceblock04 .blockinner{margin-top:580px;}
+    .servicepage .serviceblock04 .blockarrow{margin-top:240px;}
+    .servicepage .serviceblock05 .blockarrow{margin-top:250px;}
+}
